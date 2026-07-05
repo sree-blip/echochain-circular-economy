@@ -1,1 +1,27 @@
 # Databricks Setup
+
+## Objective
+Set up the Databricks environment for the EchoChain project.
+
+## Tasks Completed
+- Created a Databricks account.
+- Explored the Databricks workspace.
+- Understood the Workspace, Catalog, Compute, SQL, and Jobs sections.
+- Created the first notebook for workspace exploration.
+
+## What I Learned
+
+### Workspace
+Stores notebooks, folders, and project files.
+
+### Catalog
+Manages data assets such as catalogs, schemas, and tables.
+
+### Compute
+Provides clusters used to execute notebooks and data processing tasks.
+
+### SQL
+Allows querying data using SQL and creating dashboards.
+
+### Jobs
+Used to automate notebook execution and workflows.
