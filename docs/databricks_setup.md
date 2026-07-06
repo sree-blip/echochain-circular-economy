@@ -25,3 +25,16 @@ Allows querying data using SQL and creating dashboards.
 
 ### Jobs
 Used to automate notebook execution and workflows.
+
+## Day 2 Progress
+
+### Activities
+
+- Explored Unity Catalog.
+- Verified available catalogs and schemas.
+- Studied the Medallion Architecture.
+- Planned the implementation of Bronze, Silver and Gold layers.
+
+### Outcome
+
+The Databricks environment has been explored and the architecture for the upcoming data pipeline has been documented.

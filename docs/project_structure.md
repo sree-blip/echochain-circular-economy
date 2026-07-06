@@ -28,3 +28,51 @@ Stores business-ready datasets optimized for analytics and reporting.
 - Configure Delta Lake
 - Manage data ingestion
 - Optimize data pipeline
+
+
+## Data Architecture
+
+The EchoChain project is designed using the Medallion Architecture.
+
+### Bronze Layer (Planned)
+
+Stores raw data collected from the original source.
+
+### Silver Layer (Planned)
+
+Stores cleaned and validated data.
+
+### Gold Layer (Planned)
+
+Stores analytics-ready datasets for reporting and dashboards.
+
+---
+
+## Planned Data Flow
+
+Raw Data
+
+↓
+
+Bronze
+
+↓
+
+Silver
+
+↓
+
+Gold
+
+↓
+
+Power BI Dashboard
+
+---
+
+## Current Status
+
+- Repository initialized
+- Databricks environment explored
+- Architecture documented
+- Data ingestion is planned for the next phase
