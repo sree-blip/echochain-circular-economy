@@ -1,32 +1,50 @@
-##Power BI Setup
+# Power BI Setup
 
-##Objective
+## Objective
 
 Set up the Power BI environment for the EchoChain project.
 
-##Tasks Completed
+---
+
+## Tasks Completed
 
 - Installed Power BI Desktop.
 - Signed in using a Microsoft account.
 - Explored the Power BI interface.
 - Understood the Report, Data, and Model views.
-- Created a new Power BI project (.pbix).
+- Created a new Power BI project (`.pbix`).
 
-##What I Learned
+---
 
-#Report View
+## What I Learned
+
+### Report View
 
 Used to create interactive dashboards and visual reports.
 
-#Data View
+### Data View
 
 Used to inspect and understand imported datasets.
 
-#Model View
+### Model View
 
 Used to create relationships between tables and organize the data model.
 
-#Power BI Interface
+### Power BI Interface
 
-Learned about the Home ribbon, Visualizations pane, Filters pane, Fields pane, and Canvas layout.
+Learned about:
+- Home Ribbon
+- Visualizations Pane
+- Filters Pane
+- Fields Pane
+- Canvas Layout
 
+---
+
+## Next Step
+
+- Import the EchoChain dataset.
+- Clean and transform data using Power Query.
+- Create relationships between tables.
+- Design the Product Overview Dashboard.
+- Build KPI Cards and visualizations.
