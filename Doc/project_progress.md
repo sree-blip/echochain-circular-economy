@@ -5,6 +5,5 @@
 
 ### Completed
 
-*:Created repository structure
-
-*:Explored Databricks workspace
+- Created repository structure
+- Explored Databricks workspace
