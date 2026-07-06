@@ -41,10 +41,4 @@ Learned about:
 
 ---
 
-## Next Step
 
-- Import the EchoChain dataset.
-- Clean and transform data using Power Query.
-- Create relationships between tables.
-- Design the Product Overview Dashboard.
-- Build KPI Cards and visualizations.
