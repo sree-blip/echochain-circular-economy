@@ -9,6 +9,9 @@
 - Explored Power Bi 
 
 
+
+
+
 # Day 2 – Connect Power BI to Databricks
 
 ## Objective
