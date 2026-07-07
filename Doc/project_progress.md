@@ -35,6 +35,17 @@ Prepare and configure the connection between Power BI Desktop and Databricks for
 
 ---
 
+
+## Connection Steps
+
+1. Open Power BI Desktop.
+2. Select *Home → Get Data*.
+3. Search for *Azure Databricks*.
+4. Enter the *Server Hostname*.
+5. Enter the *HTTP Path*.
+6. Sign in using the required authentication method.
+   
+
 ## What I Learned
 
 - How Power BI connects to Databricks.
