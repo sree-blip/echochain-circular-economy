@@ -38,3 +38,17 @@ Used to automate notebook execution and workflows.
 ### Outcome
 
 The Databricks environment has been explored and the architecture for the upcoming data pipeline has been documented.
+
+## Day 3 Progress
+
+### Activities
+
+- Uploaded the marketplace dataset to Databricks Volume.
+- Created a Python notebook for Bronze data ingestion.
+- Read the CSV dataset using PySpark.
+- Validated schema, row count and null values.
+- Created the Bronze managed table.
+
+### Outcome
+
+The initial Bronze layer has been successfully implemented and is ready for downstream processing.
