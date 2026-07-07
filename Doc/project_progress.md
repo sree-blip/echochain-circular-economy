@@ -6,7 +6,8 @@
 ### Completed
 
 - Created repository structure
-- Explored Power Bi 
+- Download Microsoft Power BI
+- Explored Power BI
 
 
 
@@ -45,12 +46,13 @@ Prepare and configure the connection between Power BI Desktop and Databricks for
 
 ## Status
 
-🟡 Connection setup prepared. Waiting for the Databricks SQL Warehouse details to establish the live connection.
+- Connection setup prepared.
+- Explored the Azure Databricks connector.
+- Waiting for the Databricks SQL Warehouse details to establish the live connection.
 
 ---
 
 ## Next Step
 
-- Connect to Databricks SQL Warehouse.
 - Import project datasets into Power BI.
 - Validate imported tables.
