@@ -42,3 +42,16 @@ Learned about:
 ---
 
 
+## Day 2 Progress
+
+### Activities
+
+- Explored the **Get Data** option in Power BI.
+- Selected the **Azure Databricks** connector.
+- Studied the Server Hostname and HTTP Path requirements.
+- Reviewed the authentication methods for Databricks.
+- Prepared Power BI for connecting to Databricks SQL Warehouse.
+
+### Outcome
+
+Power BI is ready for connecting to Databricks SQL Warehouse. The connection requirements have been understood and the environment is prepared for data import.
