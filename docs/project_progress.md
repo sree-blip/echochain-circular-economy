@@ -39,3 +39,17 @@ Import the project dataset and implement the Bronze layer.
 ### Status
 
 Bronze layer implementation completed successfully.
+
+
+## Day 4
+
+### Completed
+
+- Validated the Bronze layer using the testing dataset.
+- Performed data quality checks.
+- Generated basic data profiling.
+- Prepared the ingestion notebook for the final dataset.
+
+### Note
+
+The current implementation uses a testing dataset. The final dataset will replace it once received from the Web Scraping Engineer.
