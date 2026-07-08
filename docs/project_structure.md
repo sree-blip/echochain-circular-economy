@@ -76,3 +76,20 @@ Power BI Dashboard
 - Databricks environment explored
 - Architecture documented
 - Data ingestion is planned for the next phase
+
+
+## Current Implementation Status
+
+### Bronze Layer ✅
+
+- Testing dataset uploaded successfully.
+- Bronze managed table created.
+- Raw marketplace data stored without transformation.
+
+### Silver Layer ⏳
+
+Planned for data cleaning and transformation.
+
+### Gold Layer ⏳
+
+Planned for analytics-ready datasets.
