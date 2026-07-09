@@ -97,3 +97,48 @@ Import the required datasets from Databricks into Power BI for data modeling and
 - Create relationships between imported tables.
 - Build the Power BI data model.
 
+
+# Day 4 – Power BI Data Modeling & Table Relationships
+
+## Objective
+
+Create relationships between the imported EchoChain datasets to build a structured Power BI data model for analysis and reporting.
+
+---
+
+## Tasks Completed
+
+- Opened the Model View in Power BI Desktop.
+- Identified common columns (**SKU** and **Product_ID**) across the datasets.
+- Created relationships between the imported tables.
+- Configured the correct relationship cardinality.
+- Verified active relationships using the Manage Relationships window.
+- Organized the data model for better readability.
+- Validated that filters propagate correctly between related tables.
+- Saved the updated Power BI project.
+
+---
+## Relationships Created
+
+- Marketplace_Listings (Product_ID) → Products_Master (Product_ID)
+- Cardinality: Many-to-One (*:1)
+- Status: Active
+
+- Products_Master (Product_ID) → BOM_Data (Product_ID)
+- Cardinality: Many-to-One (*:1)
+- Status: Active
+
+- Products_Master (SKU) → Circularity_Score (SKU)
+- Cardinality: One-to-One (1:1)
+- Status: Active
+
+- Warranty_Data (Product_ID) → Products_Master (Product_ID)
+- Cardinality: Many-to-One (*:1)
+- Status: Active
+
+
+---
+
+## Next Step
+
+Build the first Power BI report by creating KPI Cards, charts, slicers, and other visuals using the connected data model.
