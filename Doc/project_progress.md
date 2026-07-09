@@ -114,7 +114,7 @@ Create relationships between the imported EchoChain datasets to build a structur
 - Configured the correct relationship cardinality.
 - Verified active relationships using the Manage Relationships window.
 - Organized the data model for better readability.
-- Validated that filters propagate correctly between related tables.
+
 - Saved the updated Power BI project.
 
 ---
@@ -122,19 +122,18 @@ Create relationships between the imported EchoChain datasets to build a structur
 
 - Marketplace_Listings (Product_ID) → Products_Master (Product_ID)
 - Cardinality: Many-to-One (*:1)
-- Status: Active
+
 
 - Products_Master (Product_ID) → BOM_Data (Product_ID)
 - Cardinality: Many-to-One (*:1)
-- Status: Active
+
 
 - Products_Master (SKU) → Circularity_Score (SKU)
 - Cardinality: One-to-One (1:1)
-- Status: Active
 
 - Warranty_Data (Product_ID) → Products_Master (Product_ID)
 - Cardinality: Many-to-One (*:1)
-- Status: Active
+
 
 
 ---
