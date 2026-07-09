@@ -93,3 +93,16 @@ Planned for data cleaning and transformation.
 ### Gold Layer ⏳
 
 Planned for analytics-ready datasets.
+
+
+## Bronze Layer Status
+
+The following Bronze tables have been created:
+
+- bronze_bom_details
+- bronze_sku_master
+- bronze_scraper_data
+- bronze_warranty_details
+- bronze_circularity_score
+
+All tables are ready for downstream transformation in the Silver layer.
