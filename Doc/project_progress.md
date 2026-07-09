@@ -67,3 +67,44 @@ Prepare and configure the connection between Power BI Desktop and Databricks for
 
 - Import project datasets into Power BI.
 - Validate imported tables.
+
+
+# Day 3 – Import Datasets into Power BI
+
+## Objective
+
+Import the required datasets from Databricks into Power BI for data modeling and dashboard development.
+
+## Tasks Completed
+
+- Connected Power BI to the Databricks SQL Warehouse.
+- Opened the Navigator window.
+- Selected the required project tables.
+- Imported the datasets into Power BI.
+- Verified that all imported tables were loaded successfully.
+
+## Datasets Imported
+
+- Products_Master
+- Marketplace_Listings
+- BOM_Data
+- Warranty_Data
+- Circularity_Score
+
+
+## What I Learned
+
+### Databricks Navigator
+Used the Navigator window to browse available catalogs, schemas, and tables.
+
+### Data Import
+Imported multiple tables from Databricks into Power BI using Import mode.
+
+### Data Validation
+Verified that the imported tables and columns were loaded correctly.
+
+
+## Next Step
+- Create relationships between imported tables.
+- Build the Power BI data model.
+
