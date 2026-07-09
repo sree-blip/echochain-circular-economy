@@ -57,7 +57,7 @@ Learned about:
 Power BI is ready for connecting to Databricks SQL Warehouse. The connection requirements have been understood and the environment is prepared for data import.
 
 
-
+---
 ## Day 3Progress
 
 ## Activities
