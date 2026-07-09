@@ -75,3 +75,22 @@ Power BI is ready for connecting to Databricks SQL Warehouse. The connection req
 
 - Successfully created the initial Power BI data model.
 - Established relationships between the project tables.
+
+  ---
+## Day 4 Progress
+
+  ## Activities
+
+- Opened the Model View in Power BI.
+- Identified common key columns (Product_ID and SKU).
+- Created relationships between the imported tables.
+- Verified relationship cardinality and cross-filter direction.
+- Checked that all relationships were active.
+- Organized the data model for better readability.
+- Saved the updated Power BI project.
+
+---
+
+## Outcome
+
+Successfully created and validated relationships between all imported EchoChain datasets. The Power BI data model is now structured and ready for building interactive reports and dashboards.
