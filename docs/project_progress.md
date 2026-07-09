@@ -45,11 +45,15 @@ Bronze layer implementation completed successfully.
 
 ### Completed
 
-- Validated the Bronze layer using the testing dataset.
-- Performed data quality checks.
-- Generated basic data profiling.
-- Prepared the ingestion notebook for the final dataset.
+- Uploaded all final project datasets to Databricks Volume.
+- Read and validated all five CSV files using PySpark.
+- Created separate Bronze tables for each dataset.
+- Verified successful table creation and data availability.
 
-### Note
+### Bronze Tables
 
-The current implementation uses a testing dataset. The final dataset will replace it once received from the Web Scraping Engineer.
+- bronze_bom_details
+- bronze_sku_master
+- bronze_scraper_data
+- bronze_warranty_details
+- bronze_circularity_score
