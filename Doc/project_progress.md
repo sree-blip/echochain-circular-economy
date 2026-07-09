@@ -92,17 +92,6 @@ Import the required datasets from Databricks into Power BI for data modeling and
 - Circularity_Score
 
 
-## What I Learned
-
-### Databricks Navigator
-Used the Navigator window to browse available catalogs, schemas, and tables.
-
-### Data Import
-Imported multiple tables from Databricks into Power BI using Import mode.
-
-### Data Validation
-Verified that the imported tables and columns were loaded correctly.
-
 
 ## Next Step
 - Create relationships between imported tables.
