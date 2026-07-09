@@ -52,3 +52,9 @@ The Databricks environment has been explored and the architecture for the upcomi
 ### Outcome
 
 The initial Bronze layer has been successfully implemented and is ready for downstream processing.
+
+## Day 4 Progress
+
+- Uploaded five final CSV datasets.
+- Created separate Bronze tables for each dataset.
+- Validated successful ingestion using PySpark.
