@@ -58,7 +58,7 @@ Power BI is ready for connecting to Databricks SQL Warehouse. The connection req
 
 
 ---
-## Day 3Progress
+## Day 3 Progress
 
 ## Activities
 
@@ -67,8 +67,7 @@ Power BI is ready for connecting to Databricks SQL Warehouse. The connection req
 - Checked and validated column names and data types.
 - Created relationships between tables using **SKU** and **Product_ID**.
 - Configured active relationships with the correct cardinality.
-- Organized the relationship model for better readability.
-- Validated the data model to ensure tables were connected correctly.
+
 
 ---
 
