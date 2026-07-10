@@ -1,24 +1,27 @@
 # Bronze Layer Handoff
 
-## Project
-EchoChain
+## Objective
 
-## Module
-Bronze Layer
+Provide validated Bronze datasets for the next stage of the Medallion Architecture.
 
-## Prepared By
-Chirag – Data Engineer
+## Tables
 
-## Exported Bronze Tables
+- bronze_scraper_data
+- bronze_sku_master
+- bronze_bom_details
+- bronze_warranty_details
+- bronze_circularity_score
 
-- bronze_scraper_data.csv
-- bronze_sku_master.csv
-- bronze_bom_details.csv
-- bronze_warranty_details.csv
-- bronze_circularity_score.csv
+## Validation
 
-## Status
+- Schema verified
+- Record count verified
+- Sample records verified
 
-All Bronze datasets have been validated and exported successfully.
+## Next Stage
 
-These datasets are ready for Silver layer transformation by Miduna (PySpark Engineer).
+Silver Layer Transformation
+
+## Handoff To
+
+Miduna – PySpark Engineer
