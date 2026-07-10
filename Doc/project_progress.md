@@ -67,3 +67,77 @@ Prepare and configure the connection between Power BI Desktop and Databricks for
 
 - Import project datasets into Power BI.
 - Validate imported tables.
+
+
+# Day 3 – Import Datasets into Power BI
+
+## Objective
+
+Import the required datasets from Databricks into Power BI for data modeling and dashboard development.
+
+## Tasks Completed
+
+- Connected Power BI to the Databricks SQL Warehouse.
+- Opened the Navigator window.
+- Selected the required project tables.
+- Imported the datasets into Power BI.
+- Verified that all imported tables were loaded successfully.
+
+## Datasets Imported
+
+- Products_Master
+- Marketplace_Listings
+- BOM_Data
+- Warranty_Data
+- Circularity_Score
+
+
+
+## Next Step
+- Create relationships between imported tables.
+- Build the Power BI data model.
+
+
+# Day 4 – Power BI Data Modeling & Table Relationships
+
+## Objective
+
+Create relationships between the imported EchoChain datasets to build a structured Power BI data model for analysis and reporting.
+
+---
+
+## Tasks Completed
+
+- Opened the Model View in Power BI Desktop.
+- Identified common columns (**SKU** and **Product_ID**) across the datasets.
+- Created relationships between the imported tables.
+- Configured the correct relationship cardinality.
+- Verified active relationships using the Manage Relationships window.
+- Organized the data model for better readability.
+
+- Saved the updated Power BI project.
+
+---
+## Relationships Created
+
+- Marketplace_Listings (Product_ID) → Products_Master (Product_ID)
+- Cardinality: Many-to-One (*:1)
+
+
+- Products_Master (Product_ID) → BOM_Data (Product_ID)
+- Cardinality: Many-to-One (*:1)
+
+
+- Products_Master (SKU) → Circularity_Score (SKU)
+- Cardinality: One-to-One (1:1)
+
+- Warranty_Data (Product_ID) → Products_Master (Product_ID)
+- Cardinality: Many-to-One (*:1)
+
+
+
+---
+
+## Next Step
+
+Build the first Power BI report by creating KPI Cards, charts, slicers, and other visuals using the connected data model.
