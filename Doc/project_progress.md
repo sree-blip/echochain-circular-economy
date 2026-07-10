@@ -46,12 +46,6 @@ Prepare and configure the connection between Power BI Desktop and Databricks for
 6. Sign in using the required authentication method.
    
 
-## What I Learned
-
-- How Power BI connects to Databricks.
-- Purpose of the Azure Databricks connector.
-- Importance of Server Hostname and HTTP Path.
-- How Power BI retrieves data from Databricks SQL Warehouse.
 
 ---
 
@@ -167,6 +161,11 @@ Create the first interactive Power BI dashboard using the EchoChain dataset.
 - CSV Dataset
 - Data Modeling
 - Basic Power BI Visualizations
+
+## Next Step
+
+Continue with **Week 2** by creating a **Product Overview Dashboard**. Add KPI cards, improve the dashboard layout, apply consistent formatting, and enhance interactivity using slicers and filters to provide better insights into the EchoChain datasets.
+
 
 
 
