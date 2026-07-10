@@ -133,3 +133,41 @@ Create relationships between the imported EchoChain datasets to build a structur
 ## Next Step
 
 Build the first Power BI report by creating KPI Cards, charts, slicers, and other visuals using the connected data model.
+
+#  Day 4 – Build First Basic Report
+
+##  Objective
+Create the first interactive Power BI dashboard using the EchoChain dataset.
+
+##  Tasks Completed
+- Created KPI Cards:
+  - Total Products
+  - Average Circularity Score
+  - Warranty Records
+  - Total Components (BOM)
+- Built a Product by Category bar chart.
+- Built a Product by Brand pie chart.
+- Built an Average Circularity Score by Category column chart.
+- Added a Product Details table.
+- Added Brand and Category slicers.
+- Applied dashboard formatting with titles and alignment.
+- Tested interactions between slicers and visuals.
+
+##  Visuals Created
+- KPI Cards (4)
+- Clustered Bar Chart
+- Pie Chart
+- Clustered Column Chart
+- Table Visual
+- Brand Slicer
+- Category Slicer
+
+##  Tools Used
+- Power BI Desktop
+- CSV Dataset
+- Data Modeling
+- Basic Power BI Visualizations
+
+
+
+
