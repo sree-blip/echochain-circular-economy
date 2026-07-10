@@ -85,12 +85,11 @@ Import the required datasets from Databricks into Power BI for data modeling and
 
 ## Datasets Imported
 
-- Products_Master
-- Marketplace_Listings
-- BOM_Data
-- Warranty_Data
-- Circularity_Score
-
+- Scraper_data
+- warrant_details
+- circularity_score
+- SKU_Master
+- BOM_details
 
 
 ## Next Step
@@ -120,19 +119,12 @@ Create relationships between the imported EchoChain datasets to build a structur
 ---
 ## Relationships Created
 
-- Marketplace_Listings (Product_ID) → Products_Master (Product_ID)
-- Cardinality: Many-to-One (*:1)
+- SKU_Master_updated[product_id] → circularity_score_updated[product_id]
+- SKU_Master_updated[product_id] → scraper_data_[product_id]
+- SKU_Master_updated[sku_id] → BOM_details_updated[sku_id]
+- SKU_Master_updated[sku_id] → warrant_details_updated[sku_id]
+- Cardinality: One to Many (1:*)
 
-
-- Products_Master (Product_ID) → BOM_Data (Product_ID)
-- Cardinality: Many-to-One (*:1)
-
-
-- Products_Master (SKU) → Circularity_Score (SKU)
-- Cardinality: One-to-One (1:1)
-
-- Warranty_Data (Product_ID) → Products_Master (Product_ID)
-- Cardinality: Many-to-One (*:1)
 
 
 
