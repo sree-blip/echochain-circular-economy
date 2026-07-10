@@ -22,3 +22,14 @@ This document tracks the daily progress and contributions for the PySpark data e
   - Input schemas for raw marketplace listings, internal BOMs, and warranty claims.
   - PySpark processing stages (cleaning, attribute extraction, and fuzzy matching).
   - Schema definitions for the merged Circularity Dataset.
+
+### Day 4
+- **Mock Data Generation**:
+  - Implemented `data/generate_mock_data.py` to create mock files (`mock_scraper_data.csv`, `mock_warrant_details.csv`, and `mock_internal_bom.csv`) in the input folder matching the expected schemas.
+- **Data Ingestion Utilities**:
+  - Defined explicit PySpark schemas in `pyspark/utils.py` for all input datasets.
+  - Implemented the reusable `load_csv` helper function.
+- **Schema Exploration**:
+  - Created `pyspark/explore_schema.py` to initialize Spark, load datasets, print schemas, verify row counts, and display sample rows.
+  - Successfully ran the script to confirm the PySpark data pipeline compiles and runs locally.
+
