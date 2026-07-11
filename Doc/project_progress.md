@@ -46,12 +46,6 @@ Prepare and configure the connection between Power BI Desktop and Databricks for
 6. Sign in using the required authentication method.
    
 
-## What I Learned
-
-- How Power BI connects to Databricks.
-- Purpose of the Azure Databricks connector.
-- Importance of Server Hostname and HTTP Path.
-- How Power BI retrieves data from Databricks SQL Warehouse.
 
 ---
 
@@ -85,12 +79,11 @@ Import the required datasets from Databricks into Power BI for data modeling and
 
 ## Datasets Imported
 
-- Products_Master
-- Marketplace_Listings
-- BOM_Data
-- Warranty_Data
-- Circularity_Score
-
+- Scraper_data
+- warrant_details
+- circularity_score
+- SKU_Master
+- BOM_details
 
 
 ## Next Step
@@ -120,19 +113,12 @@ Create relationships between the imported EchoChain datasets to build a structur
 ---
 ## Relationships Created
 
-- Marketplace_Listings (Product_ID) → Products_Master (Product_ID)
-- Cardinality: Many-to-One (*:1)
+- SKU_Master_updated[product_id] → circularity_score_updated[product_id]
+- SKU_Master_updated[product_id] → scraper_data_[product_id]
+- SKU_Master_updated[sku_id] → BOM_details_updated[sku_id]
+- SKU_Master_updated[sku_id] → warrant_details_updated[sku_id]
+- Cardinality: One to Many (1:*)
 
-
-- Products_Master (Product_ID) → BOM_Data (Product_ID)
-- Cardinality: Many-to-One (*:1)
-
-
-- Products_Master (SKU) → Circularity_Score (SKU)
-- Cardinality: One-to-One (1:1)
-
-- Warranty_Data (Product_ID) → Products_Master (Product_ID)
-- Cardinality: Many-to-One (*:1)
 
 
 
@@ -141,3 +127,46 @@ Create relationships between the imported EchoChain datasets to build a structur
 ## Next Step
 
 Build the first Power BI report by creating KPI Cards, charts, slicers, and other visuals using the connected data model.
+
+#  Day 4 – Build First Basic Report
+
+##  Objective
+Create the first interactive Power BI dashboard using the EchoChain dataset.
+
+##  Tasks Completed
+- Created KPI Cards:
+  - Total Products
+  - Average Circularity Score
+  - Warranty Records
+  - Total Components (BOM)
+- Built a Product by Category bar chart.
+- Built a Product by Brand pie chart.
+- Built an Average Circularity Score by Category column chart.
+- Added a Product Details table.
+- Added Brand and Category slicers.
+- Applied dashboard formatting with titles and alignment.
+- Tested interactions between slicers and visuals.
+
+##  Visuals Created
+- KPI Cards (4)
+- Clustered Bar Chart
+- Pie Chart
+- Clustered Column Chart
+- Table Visual
+- Brand Slicer
+- Category Slicer
+
+##  Tools Used
+- Power BI Desktop
+- CSV Dataset
+- Data Modeling
+- Basic Power BI Visualizations
+
+## Next Step
+
+Continue with **Week 2** by creating a **Product Overview Dashboard**. Add KPI cards, improve the dashboard layout, apply consistent formatting, and enhance interactivity using slicers and filters to provide better insights into the EchoChain datasets.
+
+
+
+
+

@@ -94,3 +94,16 @@ Power BI is ready for connecting to Databricks SQL Warehouse. The connection req
 ## Outcome
 
 Successfully created and validated relationships between all imported EchoChain datasets. The Power BI data model is now structured and ready for building interactive reports and dashboards.
+
+## Activities
+
+- Created the EchoChain Power BI project.
+- Set up the GitHub repository and project folder structure.
+- Installed and configured Power BI Desktop.
+- Created the initial Power BI (.pbix) project file.
+- Verified that the development environment was ready.
+
+---
+
+## Outcome
+Successfully built the first interactive Power BI dashboard with KPI cards, charts, slicers, and a data table, providing an initial view of the EchoChain project data.
