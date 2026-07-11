@@ -50,12 +50,57 @@ def get_bom_data_schema() -> StructType:
     Returns the schema for the internal Bill of Materials (BOM) catalog.
     """
     return StructType([
-        StructField("model_id", StringType(), True),
-        StructField("model_name", StringType(), True),
-        StructField("brand", StringType(), True),
-        StructField("component", StringType(), True),
-        StructField("original_retail_price", DoubleType(), True)
+        StructField("bom_id", StringType(), True),
+        StructField("sku_id", StringType(), True),
+        StructField("product_id", DoubleType(), True),
+        StructField("component_name", StringType(), True),
+        StructField("component_weight", DoubleType(), True),
+        StructField("recyclable", StringType(), True),
+        StructField("recycled_content_percentage", DoubleType(), True),
+        StructField("supplier_name", StringType(), True),
+        StructField("cost_per_component", DoubleType(), True),
+        StructField("hazardous_material_flag", StringType(), True)
     ])
+
+def get_sku_master_schema() -> StructType:
+    """
+    Returns the schema for the SKU master dataset.
+    """
+    return StructType([
+        StructField("sku_id", StringType(), True),
+        StructField("product_id", DoubleType(), True),
+        StructField("product_name", StringType(), True),
+        StructField("brand", StringType(), True),
+        StructField("category", StringType(), True),
+        StructField("model_number", StringType(), True),
+        StructField("original_price", DoubleType(), True),
+        StructField("manufacturing_date", StringType(), True),
+        StructField("launch_year", IntegerType(), True),
+        StructField("product_type", StringType(), True),
+        StructField("material_type", StringType(), True),
+        StructField("weight", DoubleType(), True),
+        StructField("dimensions", StringType(), True),
+        StructField("country_of_origin", StringType(), True),
+        StructField("expected_life_span", IntegerType(), True),
+        StructField("repairability_score", DoubleType(), True)
+    ])
+
+def get_circularity_score_schema() -> StructType:
+    """
+    Returns the schema for the baseline circularity scores.
+    """
+    return StructType([
+        StructField("product_id", DoubleType(), True),
+        StructField("sku_id", StringType(), True),
+        StructField("recyclability_score", DoubleType(), True),
+        StructField("reusability_score", DoubleType(), True),
+        StructField("material_sustainability_score", DoubleType(), True),
+        StructField("warranty_score", DoubleType(), True),
+        StructField("overall_circularity_score", DoubleType(), True),
+        StructField("circularity_category", StringType(), True),
+        StructField("recommendation", StringType(), True)
+    ])
+
 
 def load_csv(spark, path: str, schema: StructType):
     """
