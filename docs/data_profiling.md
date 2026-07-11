@@ -171,10 +171,3 @@ This document profiles the 5 raw bronze datasets ingested for the **EchoChain Ci
     +----------+-------+-------------------+-----------------+-----------------------------+--------------+-------------------------+--------------------+--------------+
     ```
 
----
-
-## 📌 Technical Findings & Challenges for Cleaning (Silver Layer)
-Looking at this actual data, we will need to address the following problems in tomorrow's cleaning stage (`pyspark/data_cleaning.py`):
-1.  **Logical Date Mismatch**: In Warranty Details, row 2 has a start date of `2024-11-15` but an end date of `2023-09-21` (which is in the past). We must handle these date logic errors.
-2.  **Date Format Casts**: Date fields are loaded as `StringType` and need to be cleaned and cast to standard PySpark `DateType`.
-3.  **Standardization**: String fields like `brand`, `category`, and `condition` have different casings and trailing spaces that need to be trimmed and standardized.

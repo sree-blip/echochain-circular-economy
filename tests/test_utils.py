@@ -2,19 +2,32 @@ import sys
 import os
 import unittest
 
-# Add project root and pyspark directory to path for imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../pyspark")))
+# Insert project root at the very beginning of sys.path to prioritize local imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from configs.spark_config import create_spark_session
-from utils import (
-    get_scraper_data_schema,
-    get_warranty_data_schema,
-    get_bom_data_schema,
-    get_sku_master_schema,
-    get_circularity_score_schema,
-    load_csv
-)
+
+try:
+    # Satisfies VS Code's static analysis / linter
+    from pyspark.utils import (
+        get_scraper_data_schema,
+        get_warranty_data_schema,
+        get_bom_data_schema,
+        get_sku_master_schema,
+        get_circularity_score_schema,
+        load_csv
+    )
+except (ImportError, ModuleNotFoundError):
+    # Runs at runtime when python module resolution collides with global pyspark package
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../pyspark")))
+    from utils import (
+        get_scraper_data_schema,
+        get_warranty_data_schema,
+        get_bom_data_schema,
+        get_sku_master_schema,
+        get_circularity_score_schema,
+        load_csv
+    )
 
 class TestUtils(unittest.TestCase):
     @classmethod
