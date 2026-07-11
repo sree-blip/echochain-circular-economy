@@ -1,7 +1,0 @@
-warranty_id,sku_id,product_id,warranty_period_months,warranty_start_date,warranty_end_date,warranty_type,coverage_details,service_center_available,claim_status,last_service_date
-WAR0001,SKU_T490,1.0,24,2022-11-27,2024-11-27,Manufacturer,Parts and Service,Yes,Expired,2024-02-13
-WAR0002,SKU_MBP_M1,2.0,12,2024-01-15,2025-01-15,Manufacturer,Parts and Service,Yes,Active,2024-08-17
-WAR0003,SKU_XPS13,3.0,36,2022-10-04,2025-10-04,Manufacturer,Parts and Service,Yes,Active,2024-08-26
-WAR0004,SKU_T490,4.0,24,2023-05-22,2025-05-22,Manufacturer,Parts and Service,No,Active,2024-06-28
-WAR0005,SKU_XPS13,5.0,36,2023-01-10,2026-01-10,Manufacturer,Parts and Service,Yes,Active,2024-09-02
-WAR0006,SKU_T490,6.0,24,2022-09-12,2024-09-12,Manufacturer,Parts and Service,No,Expired,2024-03-01

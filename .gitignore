@@ -12,3 +12,12 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Data directories (ignore local datasets and outputs)
+data/**/*.csv
+data/**/*.parquet
+data/silver/
+data/gold/
+
+
+

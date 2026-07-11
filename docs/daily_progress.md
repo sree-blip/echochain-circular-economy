@@ -5,31 +5,30 @@ This document tracks the daily progress and contributions for the PySpark data e
 ---
 
 ### Day 1
-- **PySpark Setup Draft**: Created the initial draft of the PySpark setup documentation (`docs/pyspark_setup.md`).
-- **Dependency Guidelines**: Documented requirements for Python 3.12.10, Java JDK 17, and PySpark 4.1.2.
-- **Verification Commands**: Detailed commands to verify Python, Java, and PySpark installations.
-- **Testing Template**: Provided a PySpark script to verify local SparkSession initialization *(Note: Local testing of this script was not performed yet)*.
+- Created the initial PySpark setup documentation (`docs/pyspark_setup.md`).
+- Documented system dependency requirements for Python 3.12.10, JDK 17, and PySpark 4.1.2.
+- Provided command-line verification scripts to verify local Python and Java versions.
+- Drafted a local PySpark validation script to test session initialization.
 
 ### Day 2
-- **Completed PySpark Setup**: Fully completed and polished the PySpark setup documentation (`docs/pyspark_setup.md`), adding notes about Windows-specific warnings (`winutils.exe`, `NativeCodeLoader`) and troubleshooting steps for common installation path issues.
-- **Spark Session Configuration**: Created the Spark configuration script (`configs/spark_config.py`) to initialize a configured local Spark Session with optimal performance properties (custom memory settings and reduced shuffle partition count).
+- Completed PySpark setup guide with Windows-specific troubleshooting for `winutils.exe` warnings.
+- Implemented the Spark Session configuration script (`configs/spark_config.py`).
+- Configured local Spark settings, including memory allocations and reduced partition sizes.
 
 ### Day 3
-- **Initial Project Structure**:
-  - Created the core project directories (`configs/`, `data/`, `docs/`, `pyspark/`, `tests/`).
-- **Workflow Documentation**: 
-  Completed `docs/workflow.md` which documents:
-  - Input schemas for raw marketplace listings, internal BOMs, and warranty claims.
-  - PySpark processing stages (cleaning, attribute extraction, and fuzzy matching).
-  - Schema definitions for the merged Circularity Dataset.
+- Established core project directory structure (`configs/`, `data/`, `docs/`, `pyspark/`, `tests/`).
+- Defined Bronze, Silver, and Gold layer target schemas for listings, BOMs, and warranties.
+- Documented PySpark transformation phases (cleaning, SKU matching) in `docs/workflow.md`.
 
 ### Day 4
-- **Mock Data Generation**:
-  - Implemented `data/generate_mock_data.py` to create mock files (`mock_scraper_data.csv`, `mock_warrant_details.csv`, and `mock_internal_bom.csv`) in the input folder matching the expected schemas.
-- **Data Ingestion Utilities**:
-  - Defined explicit PySpark schemas in `pyspark/utils.py` for all input datasets.
-  - Implemented the reusable `load_csv` helper function.
-- **Schema Exploration**:
-  - Created `pyspark/explore_schema.py` to initialize Spark, load datasets, print schemas, verify row counts, and display sample rows.
-  - Successfully ran the script to confirm the PySpark data pipeline compiles and runs locally.
+- Implemented baseline StructType schemas and a reusable CSV data loader in `pyspark/utils.py`.
+- Developed the data verification script (`pyspark/explore_schema.py`) to inspect column structures.
+- Verified successful local schema validation, row counts, and data previews.
 
+### Day 5
+- Ingested the 5 real datasets into `data/bronze/` and aligned directory names with teammate.
+- Refactored PySpark StructType schemas for all 5 raw datasets in `pyspark/utils.py`.
+- Profiled the 5 real datasets (50,000 rows each) and wrote `docs/data_profiling.md`.
+- Expanded the mock generator to create 100 mock rows per dataset inside `tests/mock_data/`.
+- Authored the unit test suite (`tests/test_utils.py`) and verified a successful test execution.
+- Updated `.gitignore` rules to track test code while excluding large raw CSV datasets.

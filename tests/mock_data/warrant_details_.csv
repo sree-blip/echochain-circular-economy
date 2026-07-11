@@ -1,0 +1,101 @@
+warranty_id,sku_id,product_id,warranty_period_months,warranty_start_date,warranty_end_date,warranty_type,coverage_details,service_center_available,claim_status,last_service_date
+WAR0001,SKU0001,1.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-02-20
+WAR0002,SKU0002,2.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-03-20
+WAR0003,SKU0003,3.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-04-20
+WAR0004,SKU0004,4.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-05-20
+WAR0005,SKU0005,5.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-06-20
+WAR0006,SKU0006,6.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-07-20
+WAR0007,SKU0007,7.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-08-20
+WAR0008,SKU0008,8.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-09-20
+WAR0009,SKU0009,9.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-10-20
+WAR0010,SKU0010,10.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-11-20
+WAR0011,SKU0011,11.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-01-20
+WAR0012,SKU0012,12.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-02-20
+WAR0013,SKU0013,13.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-03-20
+WAR0014,SKU0014,14.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-04-20
+WAR0015,SKU0015,15.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-05-20
+WAR0016,SKU0016,16.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-06-20
+WAR0017,SKU0017,17.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-07-20
+WAR0018,SKU0018,18.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-08-20
+WAR0019,SKU0019,19.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-09-20
+WAR0020,SKU0020,20.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-10-20
+WAR0021,SKU0021,21.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-11-20
+WAR0022,SKU0022,22.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-01-20
+WAR0023,SKU0023,23.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-02-20
+WAR0024,SKU0024,24.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-03-20
+WAR0025,SKU0025,25.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-04-20
+WAR0026,SKU0026,26.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-05-20
+WAR0027,SKU0027,27.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-06-20
+WAR0028,SKU0028,28.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-07-20
+WAR0029,SKU0029,29.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-08-20
+WAR0030,SKU0030,30.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-09-20
+WAR0031,SKU0031,31.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-10-20
+WAR0032,SKU0032,32.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-11-20
+WAR0033,SKU0033,33.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-01-20
+WAR0034,SKU0034,34.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-02-20
+WAR0035,SKU0035,35.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-03-20
+WAR0036,SKU0036,36.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-04-20
+WAR0037,SKU0037,37.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-05-20
+WAR0038,SKU0038,38.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-06-20
+WAR0039,SKU0039,39.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-07-20
+WAR0040,SKU0040,40.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-08-20
+WAR0041,SKU0041,41.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-09-20
+WAR0042,SKU0042,42.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-10-20
+WAR0043,SKU0043,43.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-11-20
+WAR0044,SKU0044,44.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-01-20
+WAR0045,SKU0045,45.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-02-20
+WAR0046,SKU0046,46.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-03-20
+WAR0047,SKU0047,47.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-04-20
+WAR0048,SKU0048,48.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-05-20
+WAR0049,SKU0049,49.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-06-20
+WAR0050,SKU0050,50.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-07-20
+WAR0051,SKU0051,51.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-08-20
+WAR0052,SKU0052,52.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-09-20
+WAR0053,SKU0053,53.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-10-20
+WAR0054,SKU0054,54.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-11-20
+WAR0055,SKU0055,55.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-01-20
+WAR0056,SKU0056,56.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-02-20
+WAR0057,SKU0057,57.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-03-20
+WAR0058,SKU0058,58.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-04-20
+WAR0059,SKU0059,59.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-05-20
+WAR0060,SKU0060,60.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-06-20
+WAR0061,SKU0061,61.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-07-20
+WAR0062,SKU0062,62.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-08-20
+WAR0063,SKU0063,63.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-09-20
+WAR0064,SKU0064,64.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-10-20
+WAR0065,SKU0065,65.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-11-20
+WAR0066,SKU0066,66.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-01-20
+WAR0067,SKU0067,67.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-02-20
+WAR0068,SKU0068,68.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-03-20
+WAR0069,SKU0069,69.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-04-20
+WAR0070,SKU0070,70.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-05-20
+WAR0071,SKU0071,71.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-06-20
+WAR0072,SKU0072,72.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-07-20
+WAR0073,SKU0073,73.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-08-20
+WAR0074,SKU0074,74.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-09-20
+WAR0075,SKU0075,75.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-10-20
+WAR0076,SKU0076,76.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-11-20
+WAR0077,SKU0077,77.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-01-20
+WAR0078,SKU0078,78.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-02-20
+WAR0079,SKU0079,79.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-03-20
+WAR0080,SKU0080,80.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-04-20
+WAR0081,SKU0081,81.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-05-20
+WAR0082,SKU0082,82.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-06-20
+WAR0083,SKU0083,83.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-07-20
+WAR0084,SKU0084,84.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-08-20
+WAR0085,SKU0085,85.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-09-20
+WAR0086,SKU0086,86.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-10-20
+WAR0087,SKU0087,87.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-11-20
+WAR0088,SKU0088,88.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-01-20
+WAR0089,SKU0089,89.0,36,2022-06-15,2024-06-15,Seller,Parts only,Yes,Expired,2024-02-20
+WAR0090,SKU0090,90.0,12,2022-07-15,2024-07-15,Manufacturer,Parts and Service,Yes,Active,2024-03-20
+WAR0091,SKU0091,91.0,24,2022-08-15,2024-08-15,Seller,Parts only,Yes,Expired,2024-04-20
+WAR0092,SKU0092,92.0,36,2022-09-15,2024-09-15,Manufacturer,Parts and Service,No,Active,2024-05-20
+WAR0093,SKU0093,93.0,12,2022-10-15,2024-10-15,Seller,Parts only,Yes,Expired,2024-06-20
+WAR0094,SKU0094,94.0,24,2022-11-15,2024-11-15,Manufacturer,Parts and Service,Yes,Active,2024-07-20
+WAR0095,SKU0095,95.0,36,2022-12-15,2024-12-15,Seller,Parts only,Yes,Expired,2024-08-20
+WAR0096,SKU0096,96.0,12,2022-01-15,2024-01-15,Manufacturer,Parts and Service,No,Active,2024-09-20
+WAR0097,SKU0097,97.0,24,2022-02-15,2024-02-15,Seller,Parts only,Yes,Expired,2024-10-20
+WAR0098,SKU0098,98.0,36,2022-03-15,2024-03-15,Manufacturer,Parts and Service,Yes,Active,2024-11-20
+WAR0099,SKU0099,99.0,12,2022-04-15,2024-04-15,Seller,Parts only,Yes,Expired,2024-01-20
+WAR0100,SKU0100,100.0,24,2022-05-15,2024-05-15,Manufacturer,Parts and Service,No,Active,2024-02-20
