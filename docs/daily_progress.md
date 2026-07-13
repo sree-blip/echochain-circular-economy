@@ -32,3 +32,9 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Expanded the mock generator to create 100 mock rows per dataset inside `tests/mock_data/`.
 - Authored the unit test suite (`tests/test_utils.py`) and verified a successful test execution.
 - Updated `.gitignore` rules to track test code while excluding large raw CSV datasets.
+
+### Day 6
+- Created the core cleaning logic in `pyspark/data_cleaning.py` to remove nulls and assign default values.
+- Successfully generated and saved the clean initial Silver Layer datasets in `data/silver/`.
+- Authored the unit test suite (`tests/test_cleaning.py`) to verify null-handling and verified a successful execution.
+
