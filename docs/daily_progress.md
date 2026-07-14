@@ -38,3 +38,9 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Successfully generated and saved the clean initial Silver Layer datasets in `data/silver/`.
 - Authored the unit test suite (`tests/test_cleaning.py`) to verify null-handling and verified a successful execution.
 
+### Day 7
+- Implemented product name and text standardization logic in `pyspark/data_cleaning.py` (casing, whitespace trimming, and underscore replacement).
+- Standardized join keys (such as `sku_id`, `bom_id`, and `warranty_id`) to uppercase across all datasets.
+- Updated and executed the unit test suite (`tests/test_cleaning.py`) to verify the new standardization rules.
+
+
