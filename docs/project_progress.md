@@ -71,3 +71,18 @@ Bronze layer implementation completed successfully.
 ### Status
 
 Ready for Silver Layer implementation.
+
+
+## Day 6
+
+### Completed
+
+- Received Silver datasets from PySpark Engineer.
+- Uploaded Silver CSV files.
+- Created 5 Silver Delta tables.
+- Validated schemas and row counts.
+- Completed Silver layer implementation.
+
+### Status
+
+Ready for Gold Layer.
