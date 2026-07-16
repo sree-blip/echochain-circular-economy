@@ -43,4 +43,10 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Standardized join keys (such as `sku_id`, `bom_id`, and `warranty_id`) to uppercase across all datasets.
 - Updated and executed the unit test suite (`tests/test_cleaning.py`) to verify the new standardization rules.
 
+### Day 8
+- Developed the regex-based SKU extraction module (`pyspark/sku_extraction.py`) to parse and standardize brand, model, RAM, and storage specifications.
+- Verified the logic via unit tests (`tests/test_extraction.py`) and executed the pipeline to append these attributes to the Silver scraper data.
+
+
+
 
