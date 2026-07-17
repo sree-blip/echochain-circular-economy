@@ -166,7 +166,66 @@ Create the first interactive Power BI dashboard using the EchoChain dataset.
 
 Continue with **Week 2** by creating a **Product Overview Dashboard**. Add KPI cards, improve the dashboard layout, apply consistent formatting, and enhance interactivity using slicers and filters to provide better insights into the EchoChain datasets.
 
+# Day 6 – Product Overview Dashboard
 
+## Objective
+
+Build the first Power BI dashboard to provide an overview of the EchoChain Circular Economy dataset using KPI cards, charts, slicers, and a data table.
+
+---
+
+## Tasks Completed
+
+- Created a new dashboard page named **Product Overview Dashboard**.
+- Added KPI cards for Total Products, Average Circularity Score, Warranty Records, and Total Components.
+- Built a Product by Category bar chart.
+- Created a Product by Brand pie chart.
+- Added an Average Circularity Score by Category column chart.
+- Inserted a Brand slicer for interactive filtering.
+- Added a product details table for detailed analysis.
+- Formatted visuals with consistent colors, borders, and titles.
+- Verified that all visuals interact correctly with the data model.
+- Saved the updated Power BI dashboard.
+
+---
+
+# Day 6 – Product Overview Dashboard
+
+## Objective
+
+Build the first Power BI dashboard to provide an overview of the EchoChain Circular Economy dataset using KPI cards, charts, slicers, and a data table.
+
+---
+
+## Tasks Completed
+
+- Created a new dashboard page named **Product Overview Dashboard**.
+- Added KPI cards for Total Products, Average Circularity Score, Warranty Records, and Total Components.
+- Built a Product by Category bar chart.
+- Created a Product by Brand pie chart.
+- Added an Average Circularity Score by Category column chart.
+- Inserted a Brand slicer for interactive filtering.
+- Added a product details table for detailed analysis.
+- Formatted visuals with consistent colors, borders, and titles.
+- Verified that all visuals interact correctly with the data model.
+- Saved the updated Power BI dashboard.
+
+---
+
+## Dashboard Visuals
+
+- KPI Cards
+- Bar Chart
+- Pie Chart
+- Column Chart
+- Brand Slicer
+- Product Details Table
+
+---
+
+## Next Step
+
+Create KPI visuals with trend analysis and enhance the dashboard with additional interactive charts.
 
 
 
