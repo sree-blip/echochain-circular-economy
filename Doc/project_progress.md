@@ -227,5 +227,38 @@ Build the first Power BI dashboard to provide an overview of the EchoChain Circu
 
 Create KPI visuals with trend analysis and enhance the dashboard with additional interactive charts.
 
+# Day 7 – Create KPI Cards
 
+## Objective
+
+Create KPI Cards to display key business metrics for the EchoChain dashboard.
+
+---
+
+## Tasks Completed
+
+- Created KPI cards for Total Products.
+- Added Average Circularity Score card.
+- Added Warranty Records card.
+- Added Total Components (BOM) card.
+- Added Average Recyclability Percentage card.
+- Added Average Repairability Score card.
+- Formatted KPI cards with consistent colors and layout.
+- Saved the updated Power BI dashboard.
+
+---
+
+## KPI Cards Created
+
+- Total Products
+- Average Circularity Score
+- Warranty Records
+- Total Components (BOM)
+- Average Recyclability %
+
+---
+
+## Next Step
+
+Create charts and graphs to analyze product categories, brands, and circularity performance.
 
