@@ -1,1 +1,19 @@
+# Silver Layer Handoff
 
+Prepared By: 
+
+chirag – Data Engineer
+
+## Tables
+
+- silver_scraper_data
+- silver_sku_master
+- silver_bom_details
+- silver_warranty_details
+- silver_circularity_score
+
+Status:
+Validated and ready for Gold Layer / BI consumption.
+
+Next Owner:
+shivaji – BI Engineer
