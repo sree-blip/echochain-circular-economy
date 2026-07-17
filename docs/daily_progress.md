@@ -47,6 +47,8 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Developed the regex-based SKU extraction module (`pyspark/sku_extraction.py`) to parse and standardize brand, model, RAM, and storage specifications.
 - Verified the logic via unit tests (`tests/test_extraction.py`) and executed the pipeline to append these attributes to the Silver scraper data.
 
-
-
-
+### Day 9
+- Developed `pyspark/transformation.py` to standardize datatypes and cast date columns to DateType.
+- Resolved logical date mismatches in the warranty dataset by swapping inverted start/end dates.
+- Enforced original schema column ordering on disk to prevent downstream positional mismatches.
+- Verified all transformation functions via unit tests in `tests/test_transformation.py`.
