@@ -1,0 +1,24 @@
+# Bronze Layer Handoff
+
+## Project
+EchoChain - Circular Economy
+
+## Prepared By
+chirag – Data Engineer
+
+## Description
+This folder contains the validated Bronze datasets created during the Bronze layer implementation.
+
+## Datasets
+
+- bronze_scraper_data.csv
+- bronze_sku_master.csv
+- bronze_bom_details.csv
+- bronze_warranty_details.csv
+- bronze_circularity_score.csv
+
+## Status
+Ready for Silver layer transformation.
+
+## Handoff To
+Miduna – PySpark Engineer
