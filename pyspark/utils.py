@@ -102,6 +102,16 @@ def get_circularity_score_schema() -> StructType:
     ])
 
 
+def get_extracted_scraper_data_schema() -> StructType:
+    """
+    Returns the schema for the scraper data after SKU and specifications extraction.
+    """
+    schema = get_scraper_data_schema()
+    return schema.add("model_code", StringType(), True)\
+                 .add("ram", StringType(), True)\
+                 .add("storage", StringType(), True)
+
+
 def load_csv(spark, path: str, schema: StructType):
     """
     General helper to load a CSV file into a PySpark DataFrame with a specified schema.
