@@ -52,3 +52,8 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Resolved logical date mismatches in the warranty dataset by swapping inverted start/end dates.
 - Enforced original schema column ordering on disk to prevent downstream positional mismatches.
 - Verified all transformation functions via unit tests in `tests/test_transformation.py`.
+
+### Day 10
+- Implemented `pyspark/validate_silver.py` to verify Silver dataset schemas, datatypes, and key relationships.
+- Confirmed date formats (yyyy-MM-dd) and timeline logic are consistent across all 5 Silver datasets.
+- Tested and verified 100.00% foreign key join compatibility on sku_id.
