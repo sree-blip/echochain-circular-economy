@@ -1,0 +1,101 @@
+product_id,marketplace_name,product_name,brand,category,condition,resale_price,seller_name,seller_rating,location,listing_date,product_url,availability_status,scraped_date
+1.0,eBay,Apple Mobile model 1,Apple,Mobile,Refurbished,162.5,Seller_1,3.2,Vijayawada,2024-03-11,https://example.com/product/1,Available,2025-01-29
+2.0,OLX,Dell Accessories model 2,Dell,Accessories,New,175.0,Seller_2,3.3,Bangalore,2024-03-12,https://example.com/product/2,Available,2025-01-29
+3.0,eBay,Samsung Laptop model 3,Samsung,Laptop,Good,187.5,Seller_3,3.5,New York,2024-03-13,https://example.com/product/3,Sold,2025-01-29
+4.0,OLX,HP Mobile model 4,HP,Mobile,Like New,200.0,Seller_4,3.7,Los Angeles,2024-03-14,https://example.com/product/4,Available,2025-01-29
+5.0,eBay,Lenovo Accessories model 5,Lenovo,Accessories,Used,212.5,Seller_5,3.9,Hyderabad,2024-03-15,https://example.com/product/5,Available,2025-01-29
+6.0,OLX,Apple Laptop model 6,Apple,Laptop,Refurbished,225.0,Seller_6,4.0,Vijayawada,2024-03-16,https://example.com/product/6,Sold,2025-01-29
+7.0,eBay,Dell Mobile model 7,Dell,Mobile,New,237.5,Seller_7,4.2,Bangalore,2024-03-17,https://example.com/product/7,Available,2025-01-29
+8.0,OLX,Samsung Accessories model 8,Samsung,Accessories,Good,250.0,Seller_8,4.4,New York,2024-03-18,https://example.com/product/8,Available,2025-01-29
+9.0,eBay,HP Laptop model 9,HP,Laptop,Like New,262.5,Seller_9,4.5,Los Angeles,2024-03-19,https://example.com/product/9,Sold,2025-01-29
+10.0,OLX,Lenovo Mobile model 10,Lenovo,Mobile,Used,275.0,Seller_10,4.7,Hyderabad,2024-03-20,https://example.com/product/10,Available,2025-01-29
+11.0,eBay,Apple Accessories model 11,Apple,Accessories,Refurbished,287.5,Seller_11,4.9,Vijayawada,2024-03-21,https://example.com/product/11,Available,2025-01-29
+12.0,OLX,Dell Laptop model 12,Dell,Laptop,New,300.0,Seller_12,3.0,Bangalore,2024-03-22,https://example.com/product/12,Sold,2025-01-29
+13.0,eBay,Samsung Mobile model 13,Samsung,Mobile,Good,312.5,Seller_13,3.2,New York,2024-03-23,https://example.com/product/13,Available,2025-01-29
+14.0,OLX,HP Accessories model 14,HP,Accessories,Like New,325.0,Seller_14,3.4,Los Angeles,2024-03-24,https://example.com/product/14,Available,2025-01-29
+15.0,eBay,Lenovo Laptop model 15,Lenovo,Laptop,Used,337.5,Seller_15,3.6,Hyderabad,2024-03-25,https://example.com/product/15,Sold,2025-01-29
+16.0,OLX,Apple Mobile model 16,Apple,Mobile,Refurbished,350.0,Seller_16,3.7,Vijayawada,2024-03-26,https://example.com/product/16,Available,2025-01-29
+17.0,eBay,Dell Accessories model 17,Dell,Accessories,New,362.5,Seller_17,3.9,Bangalore,2024-03-27,https://example.com/product/17,Available,2025-01-29
+18.0,OLX,Samsung Laptop model 18,Samsung,Laptop,Good,375.0,Seller_18,4.1,New York,2024-03-28,https://example.com/product/18,Sold,2025-01-29
+19.0,eBay,HP Mobile model 19,HP,Mobile,Like New,387.5,Seller_19,4.2,Los Angeles,2024-03-29,https://example.com/product/19,Available,2025-01-29
+20.0,OLX,Lenovo Accessories model 20,Lenovo,Accessories,Used,400.0,Seller_20,4.4,Hyderabad,2024-03-10,https://example.com/product/20,Available,2025-01-29
+21.0,eBay,Apple Laptop model 21,Apple,Laptop,Refurbished,412.5,Seller_21,4.6,Vijayawada,2024-03-11,https://example.com/product/21,Sold,2025-01-29
+22.0,OLX,Dell Mobile model 22,Dell,Mobile,New,425.0,Seller_22,4.7,Bangalore,2024-03-12,https://example.com/product/22,Available,2025-01-29
+23.0,eBay,Samsung Accessories model 23,Samsung,Accessories,Good,437.5,Seller_23,4.9,New York,2024-03-13,https://example.com/product/23,Available,2025-01-29
+24.0,OLX,HP Laptop model 24,HP,Laptop,Like New,450.0,Seller_24,3.1,Los Angeles,2024-03-14,https://example.com/product/24,Sold,2025-01-29
+25.0,eBay,Lenovo Mobile model 25,Lenovo,Mobile,Used,462.5,Seller_25,3.2,Hyderabad,2024-03-15,https://example.com/product/25,Available,2025-01-29
+26.0,OLX,Apple Accessories model 26,Apple,Accessories,Refurbished,475.0,Seller_26,3.4,Vijayawada,2024-03-16,https://example.com/product/26,Available,2025-01-29
+27.0,eBay,Dell Laptop model 27,Dell,Laptop,New,487.5,Seller_27,3.6,Bangalore,2024-03-17,https://example.com/product/27,Sold,2025-01-29
+28.0,OLX,Samsung Mobile model 28,Samsung,Mobile,Good,500.0,Seller_28,3.8,New York,2024-03-18,https://example.com/product/28,Available,2025-01-29
+29.0,eBay,HP Accessories model 29,HP,Accessories,Like New,512.5,Seller_29,3.9,Los Angeles,2024-03-19,https://example.com/product/29,Available,2025-01-29
+30.0,OLX,Lenovo Laptop model 30,Lenovo,Laptop,Used,525.0,Seller_30,4.1,Hyderabad,2024-03-20,https://example.com/product/30,Sold,2025-01-29
+31.0,eBay,Apple Mobile model 31,Apple,Mobile,Refurbished,537.5,Seller_31,4.3,Vijayawada,2024-03-21,https://example.com/product/31,Available,2025-01-29
+32.0,OLX,Dell Accessories model 32,Dell,Accessories,New,550.0,Seller_32,4.4,Bangalore,2024-03-22,https://example.com/product/32,Available,2025-01-29
+33.0,eBay,Samsung Laptop model 33,Samsung,Laptop,Good,562.5,Seller_33,4.6,New York,2024-03-23,https://example.com/product/33,Sold,2025-01-29
+34.0,OLX,HP Mobile model 34,HP,Mobile,Like New,575.0,Seller_34,4.8,Los Angeles,2024-03-24,https://example.com/product/34,Available,2025-01-29
+35.0,eBay,Lenovo Accessories model 35,Lenovo,Accessories,Used,587.5,Seller_35,5.0,Hyderabad,2024-03-25,https://example.com/product/35,Available,2025-01-29
+36.0,OLX,Apple Laptop model 36,Apple,Laptop,Refurbished,600.0,Seller_36,3.1,Vijayawada,2024-03-26,https://example.com/product/36,Sold,2025-01-29
+37.0,eBay,Dell Mobile model 37,Dell,Mobile,New,612.5,Seller_37,3.3,Bangalore,2024-03-27,https://example.com/product/37,Available,2025-01-29
+38.0,OLX,Samsung Accessories model 38,Samsung,Accessories,Good,625.0,Seller_38,3.5,New York,2024-03-28,https://example.com/product/38,Available,2025-01-29
+39.0,eBay,HP Laptop model 39,HP,Laptop,Like New,637.5,Seller_39,3.6,Los Angeles,2024-03-29,https://example.com/product/39,Sold,2025-01-29
+40.0,OLX,Lenovo Mobile model 40,Lenovo,Mobile,Used,650.0,Seller_40,3.8,Hyderabad,2024-03-10,https://example.com/product/40,Available,2025-01-29
+41.0,eBay,Apple Accessories model 41,Apple,Accessories,Refurbished,662.5,Seller_41,4.0,Vijayawada,2024-03-11,https://example.com/product/41,Available,2025-01-29
+42.0,OLX,Dell Laptop model 42,Dell,Laptop,New,675.0,Seller_42,4.1,Bangalore,2024-03-12,https://example.com/product/42,Sold,2025-01-29
+43.0,eBay,Samsung Mobile model 43,Samsung,Mobile,Good,687.5,Seller_43,4.3,New York,2024-03-13,https://example.com/product/43,Available,2025-01-29
+44.0,OLX,HP Accessories model 44,HP,Accessories,Like New,700.0,Seller_44,4.5,Los Angeles,2024-03-14,https://example.com/product/44,Available,2025-01-29
+45.0,eBay,Lenovo Laptop model 45,Lenovo,Laptop,Used,712.5,Seller_45,4.7,Hyderabad,2024-03-15,https://example.com/product/45,Sold,2025-01-29
+46.0,OLX,Apple Mobile model 46,Apple,Mobile,Refurbished,725.0,Seller_46,4.8,Vijayawada,2024-03-16,https://example.com/product/46,Available,2025-01-29
+47.0,eBay,Dell Accessories model 47,Dell,Accessories,New,737.5,Seller_47,5.0,Bangalore,2024-03-17,https://example.com/product/47,Available,2025-01-29
+48.0,OLX,Samsung Laptop model 48,Samsung,Laptop,Good,750.0,Seller_48,3.2,New York,2024-03-18,https://example.com/product/48,Sold,2025-01-29
+49.0,eBay,HP Mobile model 49,HP,Mobile,Like New,762.5,Seller_49,3.3,Los Angeles,2024-03-19,https://example.com/product/49,Available,2025-01-29
+50.0,OLX,Lenovo Accessories model 50,Lenovo,Accessories,Used,775.0,Seller_50,3.5,Hyderabad,2024-03-20,https://example.com/product/50,Available,2025-01-29
+51.0,eBay,Apple Laptop model 51,Apple,Laptop,Refurbished,787.5,Seller_51,3.7,Vijayawada,2024-03-21,https://example.com/product/51,Sold,2025-01-29
+52.0,OLX,Dell Mobile model 52,Dell,Mobile,New,800.0,Seller_52,3.8,Bangalore,2024-03-22,https://example.com/product/52,Available,2025-01-29
+53.0,eBay,Samsung Accessories model 53,Samsung,Accessories,Good,812.5,Seller_53,4.0,New York,2024-03-23,https://example.com/product/53,Available,2025-01-29
+54.0,OLX,HP Laptop model 54,HP,Laptop,Like New,825.0,Seller_54,4.2,Los Angeles,2024-03-24,https://example.com/product/54,Sold,2025-01-29
+55.0,eBay,Lenovo Mobile model 55,Lenovo,Mobile,Used,837.5,Seller_55,4.4,Hyderabad,2024-03-25,https://example.com/product/55,Available,2025-01-29
+56.0,OLX,Apple Accessories model 56,Apple,Accessories,Refurbished,850.0,Seller_56,4.5,Vijayawada,2024-03-26,https://example.com/product/56,Available,2025-01-29
+57.0,eBay,Dell Laptop model 57,Dell,Laptop,New,862.5,Seller_57,4.7,Bangalore,2024-03-27,https://example.com/product/57,Sold,2025-01-29
+58.0,OLX,Samsung Mobile model 58,Samsung,Mobile,Good,875.0,Seller_58,4.9,New York,2024-03-28,https://example.com/product/58,Available,2025-01-29
+59.0,eBay,HP Accessories model 59,HP,Accessories,Like New,887.5,Seller_59,3.0,Los Angeles,2024-03-29,https://example.com/product/59,Available,2025-01-29
+60.0,OLX,Lenovo Laptop model 60,Lenovo,Laptop,Used,900.0,Seller_60,3.2,Hyderabad,2024-03-10,https://example.com/product/60,Sold,2025-01-29
+61.0,eBay,Apple Mobile model 61,Apple,Mobile,Refurbished,912.5,Seller_61,3.4,Vijayawada,2024-03-11,https://example.com/product/61,Available,2025-01-29
+62.0,OLX,Dell Accessories model 62,Dell,Accessories,New,925.0,Seller_62,3.5,Bangalore,2024-03-12,https://example.com/product/62,Available,2025-01-29
+63.0,eBay,Samsung Laptop model 63,Samsung,Laptop,Good,937.5,Seller_63,3.7,New York,2024-03-13,https://example.com/product/63,Sold,2025-01-29
+64.0,OLX,HP Mobile model 64,HP,Mobile,Like New,950.0,Seller_64,3.9,Los Angeles,2024-03-14,https://example.com/product/64,Available,2025-01-29
+65.0,eBay,Lenovo Accessories model 65,Lenovo,Accessories,Used,962.5,Seller_65,4.1,Hyderabad,2024-03-15,https://example.com/product/65,Available,2025-01-29
+66.0,OLX,Apple Laptop model 66,Apple,Laptop,Refurbished,975.0,Seller_66,4.2,Vijayawada,2024-03-16,https://example.com/product/66,Sold,2025-01-29
+67.0,eBay,Dell Mobile model 67,Dell,Mobile,New,987.5,Seller_67,4.4,Bangalore,2024-03-17,https://example.com/product/67,Available,2025-01-29
+68.0,OLX,Samsung Accessories model 68,Samsung,Accessories,Good,1000.0,Seller_68,4.6,New York,2024-03-18,https://example.com/product/68,Available,2025-01-29
+69.0,eBay,HP Laptop model 69,HP,Laptop,Like New,1012.5,Seller_69,4.7,Los Angeles,2024-03-19,https://example.com/product/69,Sold,2025-01-29
+70.0,OLX,Lenovo Mobile model 70,Lenovo,Mobile,Used,1025.0,Seller_70,4.9,Hyderabad,2024-03-20,https://example.com/product/70,Available,2025-01-29
+71.0,eBay,Apple Accessories model 71,Apple,Accessories,Refurbished,1037.5,Seller_71,3.1,Vijayawada,2024-03-21,https://example.com/product/71,Available,2025-01-29
+72.0,OLX,Dell Laptop model 72,Dell,Laptop,New,1050.0,Seller_72,3.2,Bangalore,2024-03-22,https://example.com/product/72,Sold,2025-01-29
+73.0,eBay,Samsung Mobile model 73,Samsung,Mobile,Good,1062.5,Seller_73,3.4,New York,2024-03-23,https://example.com/product/73,Available,2025-01-29
+74.0,OLX,HP Accessories model 74,HP,Accessories,Like New,1075.0,Seller_74,3.6,Los Angeles,2024-03-24,https://example.com/product/74,Available,2025-01-29
+75.0,eBay,Lenovo Laptop model 75,Lenovo,Laptop,Used,1087.5,Seller_75,3.8,Hyderabad,2024-03-25,https://example.com/product/75,Sold,2025-01-29
+76.0,OLX,Apple Mobile model 76,Apple,Mobile,Refurbished,1100.0,Seller_76,3.9,Vijayawada,2024-03-26,https://example.com/product/76,Available,2025-01-29
+77.0,eBay,Dell Accessories model 77,Dell,Accessories,New,1112.5,Seller_77,4.1,Bangalore,2024-03-27,https://example.com/product/77,Available,2025-01-29
+78.0,OLX,Samsung Laptop model 78,Samsung,Laptop,Good,1125.0,Seller_78,4.3,New York,2024-03-28,https://example.com/product/78,Sold,2025-01-29
+79.0,eBay,HP Mobile model 79,HP,Mobile,Like New,1137.5,Seller_79,4.4,Los Angeles,2024-03-29,https://example.com/product/79,Available,2025-01-29
+80.0,OLX,Lenovo Accessories model 80,Lenovo,Accessories,Used,1150.0,Seller_80,4.6,Hyderabad,2024-03-10,https://example.com/product/80,Available,2025-01-29
+81.0,eBay,Apple Laptop model 81,Apple,Laptop,Refurbished,1162.5,Seller_81,4.8,Vijayawada,2024-03-11,https://example.com/product/81,Sold,2025-01-29
+82.0,OLX,Dell Mobile model 82,Dell,Mobile,New,1175.0,Seller_82,4.9,Bangalore,2024-03-12,https://example.com/product/82,Available,2025-01-29
+83.0,eBay,Samsung Accessories model 83,Samsung,Accessories,Good,1187.5,Seller_83,3.1,New York,2024-03-13,https://example.com/product/83,Available,2025-01-29
+84.0,OLX,HP Laptop model 84,HP,Laptop,Like New,1200.0,Seller_84,3.3,Los Angeles,2024-03-14,https://example.com/product/84,Sold,2025-01-29
+85.0,eBay,Lenovo Mobile model 85,Lenovo,Mobile,Used,1212.5,Seller_85,3.5,Hyderabad,2024-03-15,https://example.com/product/85,Available,2025-01-29
+86.0,OLX,Apple Accessories model 86,Apple,Accessories,Refurbished,1225.0,Seller_86,3.6,Vijayawada,2024-03-16,https://example.com/product/86,Available,2025-01-29
+87.0,eBay,Dell Laptop model 87,Dell,Laptop,New,1237.5,Seller_87,3.8,Bangalore,2024-03-17,https://example.com/product/87,Sold,2025-01-29
+88.0,OLX,Samsung Mobile model 88,Samsung,Mobile,Good,1250.0,Seller_88,4.0,New York,2024-03-18,https://example.com/product/88,Available,2025-01-29
+89.0,eBay,HP Accessories model 89,HP,Accessories,Like New,1262.5,Seller_89,4.1,Los Angeles,2024-03-19,https://example.com/product/89,Available,2025-01-29
+90.0,OLX,Lenovo Laptop model 90,Lenovo,Laptop,Used,1275.0,Seller_90,4.3,Hyderabad,2024-03-20,https://example.com/product/90,Sold,2025-01-29
+91.0,eBay,Apple Mobile model 91,Apple,Mobile,Refurbished,1287.5,Seller_91,4.5,Vijayawada,2024-03-21,https://example.com/product/91,Available,2025-01-29
+92.0,OLX,Dell Accessories model 92,Dell,Accessories,New,1300.0,Seller_92,4.6,Bangalore,2024-03-22,https://example.com/product/92,Available,2025-01-29
+93.0,eBay,Samsung Laptop model 93,Samsung,Laptop,Good,1312.5,Seller_93,4.8,New York,2024-03-23,https://example.com/product/93,Sold,2025-01-29
+94.0,OLX,HP Mobile model 94,HP,Mobile,Like New,1325.0,Seller_94,5.0,Los Angeles,2024-03-24,https://example.com/product/94,Available,2025-01-29
+95.0,eBay,Lenovo Accessories model 95,Lenovo,Accessories,Used,1337.5,Seller_95,3.2,Hyderabad,2024-03-25,https://example.com/product/95,Available,2025-01-29
+96.0,OLX,Apple Laptop model 96,Apple,Laptop,Refurbished,1350.0,Seller_96,3.3,Vijayawada,2024-03-26,https://example.com/product/96,Sold,2025-01-29
+97.0,eBay,Dell Mobile model 97,Dell,Mobile,New,1362.5,Seller_97,3.5,Bangalore,2024-03-27,https://example.com/product/97,Available,2025-01-29
+98.0,OLX,Samsung Accessories model 98,Samsung,Accessories,Good,1375.0,Seller_98,3.7,New York,2024-03-28,https://example.com/product/98,Available,2025-01-29
+99.0,eBay,HP Laptop model 99,HP,Laptop,Like New,1387.5,Seller_99,3.8,Los Angeles,2024-03-29,https://example.com/product/99,Sold,2025-01-29
+100.0,OLX,Lenovo Mobile model 100,Lenovo,Mobile,Used,1400.0,Seller_100,4.0,Hyderabad,2024-03-10,https://example.com/product/100,Available,2025-01-29
