@@ -166,7 +166,99 @@ Create the first interactive Power BI dashboard using the EchoChain dataset.
 
 Continue with **Week 2** by creating a **Product Overview Dashboard**. Add KPI cards, improve the dashboard layout, apply consistent formatting, and enhance interactivity using slicers and filters to provide better insights into the EchoChain datasets.
 
+# Day 6 – Product Overview Dashboard
 
+## Objective
 
+Build the first Power BI dashboard to provide an overview of the EchoChain Circular Economy dataset using KPI cards, charts, slicers, and a data table.
 
+---
+
+## Tasks Completed
+
+- Created a new dashboard page named **Product Overview Dashboard**.
+- Added KPI cards for Total Products, Average Circularity Score, Warranty Records, and Total Components.
+- Built a Product by Category bar chart.
+- Created a Product by Brand pie chart.
+- Added an Average Circularity Score by Category column chart.
+- Inserted a Brand slicer for interactive filtering.
+- Added a product details table for detailed analysis.
+- Formatted visuals with consistent colors, borders, and titles.
+- Verified that all visuals interact correctly with the data model.
+- Saved the updated Power BI dashboard.
+
+---
+
+# Day 6 – Product Overview Dashboard
+
+## Objective
+
+Build the first Power BI dashboard to provide an overview of the EchoChain Circular Economy dataset using KPI cards, charts, slicers, and a data table.
+
+---
+
+## Tasks Completed
+
+- Created a new dashboard page named **Product Overview Dashboard**.
+- Added KPI cards for Total Products, Average Circularity Score, Warranty Records, and Total Components.
+- Built a Product by Category bar chart.
+- Created a Product by Brand pie chart.
+- Added an Average Circularity Score by Category column chart.
+- Inserted a Brand slicer for interactive filtering.
+- Added a product details table for detailed analysis.
+- Formatted visuals with consistent colors, borders, and titles.
+- Verified that all visuals interact correctly with the data model.
+- Saved the updated Power BI dashboard.
+
+---
+
+## Dashboard Visuals
+
+- KPI Cards
+- Bar Chart
+- Pie Chart
+- Column Chart
+- Brand Slicer
+- Product Details Table
+
+---
+
+## Next Step
+
+Create KPI visuals with trend analysis and enhance the dashboard with additional interactive charts.
+
+# Day 7 – Create KPI Cards
+
+## Objective
+
+Create KPI Cards to display key business metrics for the EchoChain dashboard.
+
+---
+
+## Tasks Completed
+
+- Created KPI cards for Total Products.
+- Added Average Circularity Score card.
+- Added Warranty Records card.
+- Added Total Components (BOM) card.
+- Added Average Recyclability Percentage card.
+- Added Average Repairability Score card.
+- Formatted KPI cards with consistent colors and layout.
+- Saved the updated Power BI dashboard.
+
+---
+
+## KPI Cards Created
+
+- Total Products
+- Average Circularity Score
+- Warranty Records
+- Total Components (BOM)
+- Average Recyclability %
+
+---
+
+## Next Step
+
+Create charts and graphs to analyze product categories, brands, and circularity performance.
 
