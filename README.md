@@ -1,47 +1,184 @@
-# echochain-circular-economy
-EchoChain is a scalable data analytics project that integrates web scraping, data engineering, PySpark processing, and Power BI visualization to build a complete ETL pipeline and generate meaningful business insights
+# EchoChain - Circular Economy ♻️
 
-Web Scraping Engineer 
-Role :- 
-       Responsible for collecting marketplace product data through web scraping, validating records, and preparing datasets for downstream processing in the EchoChain project.
-       
-Week 1 Work :- 
-  • Installed Python, Scrapy, and VS Code.
-  •Learned website structure and created the         first spider.
-  •Scraped sample product data.
-  •Exported data in JSON and CSV formats.
-  •Tested scraper and fixed errors.
+## Overview
 
-Week 1 Tools Used :- 
- * Python
- * Scrapy
- * VS Code
- * Git & GitHub
- * 
-Week 1 Outcome :- 
+EchoChain is a cloud-based data engineering project that implements the **Medallion Architecture (Bronze → Silver → Gold)** using **Databricks** and **Apache Spark**.
 
- • Working scraper developed.
- • Sample datasets prepared.
- • CSV and JSON files generated.
+The project focuses on processing circular economy datasets, transforming raw data into validated and analytics-ready datasets for business intelligence and reporting.
 
-Week 2 Work :- 
+---
 
-• Improved scraping logic.
-• Implemented pagination handling.
-• Removed duplicate products.
-• Validated scraped data.
-• Performed automated scraping tests.
+## Project Architecture
 
-Week 2 Tools Used :- 
+```
+Raw Data
+    │
+    ▼
+Bronze Layer
+    │
+    ▼
+Silver Layer
+    │
+    ▼
+Gold Layer
+    │
+    ▼
+Power BI Dashboard
+```
 
-* Python
-* Scrapy
-* Pandas
-* VS Code
-* Git & GitHub
-  
-Week 2 Outcome :- 
+---
 
-• Clean scraped dataset generated.
-• Improved scraping accuracy.
-• Duplicate-free and validated data prepared for the next stage of processing.
+## Technologies Used
+
+- Databricks
+- Apache Spark (PySpark)
+- Delta Tables
+- SQL
+- Git & GitHub
+- Medallion Architecture
+
+---
+
+## Repository Structure
+
+```
+EchoChain
+│
+├── data/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── docs/
+│   ├── images/
+│   ├── bronze_handoff.md
+│   ├── silver_handoff.md
+│   ├── data_dictionary.md
+│   ├── dataset_inventory.md
+│   ├── data_quality_report.md
+│   ├── project_progress.md
+│   ├── project_structure.md
+│   └── databricks_setup.md
+│
+├── handoff/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── notebooks/
+│   ├── 01_workspace_exploration.md
+│   ├── 02_Medallion_Architecture_planning.md
+│   ├── 05_Silver_Layer_Implementation.md
+│
+└── README.md
+```
+
+---
+
+# Project Progress
+
+## Week 1
+
+### Day 1
+- Repository Setup
+- Databricks Workspace Setup
+- GitHub Project Structure
+
+### Day 2
+- Medallion Architecture Planning
+- Documentation
+- Catalog Configuration
+
+### Day 3
+- Bronze Layer Data Ingestion
+- Initial Bronze Table Creation
+
+### Day 4
+- Multi-table Bronze Layer Implementation
+- Bronze Delta Tables Created
+
+### Day 5
+- Bronze Layer Validation
+- Bronze Dataset Export
+- Bronze Layer Handoff
+
+### Day 6
+- Silver Layer Implementation
+- Silver Delta Tables Created
+
+### Day 7
+- Silver Layer Validation
+- Silver Dataset Export
+- Silver Layer Handoff
+
+### Day 8
+- Repository Documentation
+- Data Dictionary
+- Dataset Inventory
+- Project Documentation Updated
+
+---
+
+# Bronze Tables
+
+- bronze_scraper_data
+- bronze_sku_master
+- bronze_bom_details
+- bronze_warranty_details
+- bronze_circularity_score
+
+---
+
+# Silver Tables
+
+- silver_scraper_data
+- silver_sku_master
+- silver_bom_details
+- silver_warranty_details
+- silver_circularity_score
+
+---
+
+# Current Status
+
+- Bronze Layer Completed
+- Bronze Validation Completed
+- Bronze Handoff Completed
+- Silver Layer Completed
+- Silver Validation Completed
+- Silver Handoff Completed
+- Documentation Updated
+
+---
+
+# Upcoming Work
+
+- Gold Layer Integration
+- Gold Layer Validation
+- BI Dashboard Development
+- Final Project Review
+
+---
+
+## Project Team
+
+| Role | Responsibility |
+|------|----------------|
+| Sri Talmi | Data Collection |
+| Chirag | Data Engineering |
+| Miduna | PySpark Engineering |
+| Shivaji | BI Engineering |
+
+---
+
+## Author
+
+**Chirag Tarvekar**
+
+Role: **Data Engineer**
+
+---
+
+## Status
+
+**Project In Progress**
