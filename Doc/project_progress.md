@@ -262,3 +262,138 @@ Create KPI Cards to display key business metrics for the EchoChain dashboard.
 
 Create charts and graphs to analyze product categories, brands, and circularity performance.
 
+# Day 8 – Build Charts
+
+## Objective
+
+Build interactive Power BI charts to analyze product categories, brands, circularity scores, warranty performance, and recyclability for the EchoChain Circular Economy dashboard.
+
+---
+
+## Tasks Completed
+
+- Created a Clustered Column Chart to compare Circularity Score by Brand.
+- Added a Bar Chart to display Total Products by Category.
+- Built a Donut Chart showing Product Distribution by Brand.
+- Created a Line Chart to visualize product launches by Year.
+- Added a Column Chart for Average Recyclability Score by Category.
+- Added a Bar Chart for Average Repairability Score by Brand.
+- Applied consistent color themes and data labels.
+- Enabled cross-filtering between charts and slicers.
+- Verified all visuals display correct values after applying filters.
+- Saved the updated Power BI dashboard.
+
+---
+
+## Dashboard Visuals
+
+- Clustered Column Chart
+- Bar Chart
+- Donut Chart
+- Line Chart
+- Column Chart
+- Brand Slicer
+- Category Slicer
+- Launch Year Slicer
+
+---
+
+## Charts Created
+
+- Circularity Score by Brand
+- Total Products by Category
+- Product Distribution by Brand
+- Products by Launch Year
+- Average Recyclability Score by Category
+- Average Repairability Score by Brand
+
+---
+
+## Next Step
+
+Improve dashboard usability by adding advanced formatting, conditional formatting, tooltips, and interactive features.
+
+# Day 9 – Improve Dashboard Layout
+
+## Objective
+
+Enhance the overall dashboard appearance by improving layout, formatting, alignment, and user experience.
+
+---
+
+## Tasks Completed
+
+- Improved the alignment of KPI cards and charts.
+- Applied a consistent color theme across all report pages.
+- Added a professional dashboard title.
+- Formatted KPI cards with uniform fonts and sizes.
+- Improved chart titles, legends, and axis labels.
+- Added rounded corners and subtle shadows to visuals.
+- Arranged slicers neatly for better usability.
+- Optimized spacing between visuals.
+- Verified cross-filtering and slicer interactions.
+- Reviewed dashboard design for consistency.
+- Saved the enhanced Power BI dashboard.
+
+---
+
+## Dashboard Improvements
+
+- Professional Layout
+- Consistent Theme
+- Better KPI Card Design
+- Enhanced Chart Formatting
+- Improved Navigation
+- Optimized User Experience
+
+---
+
+## Next Step
+
+Perform final testing, update project documentation.
+
+# Day 10 – Mid-Project Review Dashboard
+
+## Objective
+
+Review the progress of the EchoChain Power BI dashboard, validate all implemented features, ensure data accuracy, and prepare the dashboard for the next development phase.
+
+---
+
+## Tasks Completed
+
+- Reviewed all dashboard pages and report layouts.
+- Verified relationships between all imported tables.
+- Validated DAX measures and KPI calculations.
+- Checked the accuracy of charts and visualizations.
+- Tested Brand, Category, and Launch Year slicers.
+- Verified cross-filtering and visual interactions.
+- Improved dashboard formatting and alignment.
+- Fixed minor formatting and layout issues.
+- Updated project documentation with the latest progress.
+- Saved the reviewed Power BI dashboard.
+
+---
+
+## Dashboard Review
+
+- KPI Dashboard ✓
+- Product Overview Dashboard ✓
+- Interactive Charts ✓
+- Slicers & Filters ✓
+- Data Model Validation ✓
+- DAX Measure Validation ✓
+- Dashboard Formatting ✓
+- Visual Interaction Testing ✓
+
+---
+
+
+
+## Next Step
+
+- Create advanced DAX measures.
+- Implement Circularity Score calculations.
+- Build Executive Dashboard.
+- Add advanced analytics and business insights.
+
