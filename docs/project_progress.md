@@ -97,8 +97,6 @@ Ready for Gold Layer.
 - Prepared Silver handoff package
 - Completed documentation
 
-### Status
-
 Ready for BI Engineer.
 
 ## Day 8
@@ -127,4 +125,3 @@ Ready for BI Engineer.
 | Bronze | ✅ Completed |
 | Silver | ✅ Completed |
 | Gold | ⏳ Pending |
-
