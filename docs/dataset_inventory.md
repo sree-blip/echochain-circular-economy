@@ -13,10 +13,6 @@
 | Silver | silver_warranty_details | ✅ Completed |
 | Silver | silver_circularity_score | ✅ Completed |
 
----
-
-# Dataset Inventory
-
 | Dataset | Bronze | Silver | Gold |
 |----------|---------|---------|------|
 | BOM | ✅ | ✅ | ❌ |
