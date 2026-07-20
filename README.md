@@ -45,3 +45,23 @@ Week 2 Outcome :-
 • Clean scraped dataset generated.
 • Improved scraping accuracy.
 • Duplicate-free and validated data prepared for the next stage of processing.
+
+Week 3 (Days 11–15)
+
+Purpose:
+Analytics & Circularity Score build cheyyadam — scraped marketplace data ni gold layer analytics ki convert cheyyadam, fuzzy matching tho similar/duplicate listings identify cheyyadam, circularity metrics calculate cheyyadam.
+
+Tools/Tasks used (Member 1 — Web Scraping):
+
+• Scraper performance optimization (Day 11)
+• Marketplace testing — more coverage (Day 12)
+• Scraped records verification/QA (Day 13)
+• Error handling improvements (Day 14)
+• Documentation (Day 15)
+
+Outcome / Week 3 Deliverables:
+
+* Gold Layer (analytics-ready dataset)
+* Fuzzy Matching (duplicate/similar listing detection)
+* Circularity Dataset
+* Executive Dashboard
