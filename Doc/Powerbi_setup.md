@@ -145,3 +145,51 @@ Successfully developed the Product Overview Dashboard, providing a clear overvie
 ## Outcome
 
 Successfully created an interactive KPI Dashboard that highlights key performance indicators and enables users to monitor product sustainability metrics through dynamic filtering and visual analysis.
+
+# Day 8 – Build Charts Dashboard
+
+## Activities
+- Created the Analytics Dashboard page in Power BI.
+- Added a Bar Chart to analyze Products by Brand.
+- Added a Column Chart to compare Average Circularity Score by Category.
+- Added a Line Chart to display Circularity Score Trend by Launch Year.
+- Added a Donut Chart to visualize Marketplace Distribution.
+- Added a Table visual showing Product Name, Brand, Category, Circularity Score, Repairability Score, and Warranty Score.
+- Configured Brand, Category, and Launch Year slicers.
+- Applied chart titles, data labels, legends, and consistent formatting.
+- Tested interactions between slicers and all visuals.
+
+## Outcome
+Successfully developed an interactive analytics dashboard that provides clear insights into product distribution, circularity performance, marketplace trends, and sustainability metrics. All visuals respond dynamically to user-selected filters, improving the dashboard's usability and decision-making capabilities.
+
+
+# Day 9 – Dashboard Enhancement & Validation
+
+## Activities
+- Improved dashboard layout and alignment for a cleaner design.
+- Applied a consistent color theme across all visuals.
+- Formatted KPI cards with proper fonts, sizes, and icons.
+- Added page titles and dashboard headings.
+- Configured slicer interactions for Brand, Category, and Launch Year.
+- Verified table relationships and DAX measures.
+- Checked data accuracy across all charts and KPI cards.
+- Removed unnecessary visuals and optimized spacing.
+- Added Last Refresh information.
+
+## Outcome
+Successfully enhanced the dashboard with a professional appearance, improved readability, and verified that all visuals, slicers, and KPIs display accurate and interactive results.
+
+# Day 10 – Final Review & GitHub Documentation
+
+## Activities
+- Performed final testing of all dashboard pages.
+- Verified filters, slicers, drill-throughs, and navigation.
+- Reviewed KPI calculations and chart accuracy.
+- Organized the project folder structure.
+- Added dashboard screenshots to the GitHub repository.
+- Updated README.md with project overview, features, tools used, and screenshots.
+- Uploaded the Power BI (.pbix) project file.
+- Documented project progress and deliverables.
+
+## Outcome
+Successfully completed the EchoChain Power BI Dashboard project. The dashboard is fully functional, professionally designed, documented, and ready for demonstration, portfolio use, and GitHub submission.
