@@ -12,3 +12,17 @@
 | Silver | silver_bom_details | ✅ Completed |
 | Silver | silver_warranty_details | ✅ Completed |
 | Silver | silver_circularity_score | ✅ Completed |
+
+---
+
+# Dataset Inventory
+
+| Dataset | Bronze | Silver | Gold |
+|----------|---------|---------|------|
+| BOM | ✅ | ✅ | ❌ |
+| SKU | ✅ | ✅ | ❌ |
+| Circularity | ✅ | ✅ | ❌ |
+| Supplier | ✅ | ✅ | ❌ |
+| Warranty | ✅ | ✅ | ❌ |
+
+Current Layer Status : Silver Completed
