@@ -57,3 +57,8 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Implemented `pyspark/validate_silver.py` to verify Silver dataset schemas, datatypes, and key relationships.
 - Confirmed date formats (yyyy-MM-dd) and timeline logic are consistent across all 5 Silver datasets.
 - Tested and verified 100.00% foreign key join compatibility on sku_id.
+
+### Day 11
+- Implemented the fuzzy matching pipeline (`pyspark/fuzzy_matching.py`) using an optimized tiered matching strategy.
+- Verified match accuracy using automated unit tests (`tests/test_matching.py`).
+- Executed the pipeline to successfully match and output 50,000 listings to `data/silver/scraper_matched.csv`.
