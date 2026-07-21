@@ -112,6 +112,16 @@ def get_extracted_scraper_data_schema() -> StructType:
                  .add("storage", StringType(), True)
 
 
+def get_matched_scraper_data_schema() -> StructType:
+    """
+    Returns the schema for the scraper data after fuzzy matching (with sku_id, matched_model_name, levenshtein_distance).
+    """
+    schema = get_extracted_scraper_data_schema()
+    return schema.add("sku_id", StringType(), True)\
+                 .add("matched_model_name", StringType(), True)\
+                 .add("levenshtein_distance", IntegerType(), True)
+
+
 def load_csv(spark, path: str, schema: StructType):
     """
     General helper to load a CSV file into a PySpark DataFrame with a specified schema.
