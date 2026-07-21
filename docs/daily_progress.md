@@ -62,3 +62,9 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Implemented the fuzzy matching pipeline (`pyspark/fuzzy_matching.py`) using an optimized tiered matching strategy.
 - Verified match accuracy using automated unit tests (`tests/test_matching.py`).
 - Executed the pipeline to successfully match and output 50,000 listings to `data/silver/scraper_matched.csv`.
+
+### Day 12
+- Developed PySpark product aggregation module `pyspark/aggregate_listings.py` to calculate secondary market metrics.
+- Joined matched scraper listings with SKU Master to compute average original prices, average resale prices, and average depreciation percentages.
+- Built and ran unit tests (`tests/test_aggregation.py`) to verify calculations.
+- Executed pipeline to generate the Gold-layer aggregated file `data/gold/aggregated_product_data.csv` for the BI dashboard.
