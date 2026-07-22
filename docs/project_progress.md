@@ -23,6 +23,8 @@
 
 Import the project dataset and implement the Bronze layer.
 
+---
+
 ## Day 3
 
 ### Completed
@@ -40,6 +42,7 @@ Import the project dataset and implement the Bronze layer.
 
 Bronze layer implementation completed successfully.
 
+---
 
 ## Day 4
 
@@ -58,6 +61,7 @@ Bronze layer implementation completed successfully.
 - bronze_warranty_details
 - bronze_circularity_score
 
+---
 
 ## Day 5
 
@@ -72,6 +76,7 @@ Bronze layer implementation completed successfully.
 
 Ready for Silver Layer implementation.
 
+---
 
 ## Day 6
 
@@ -86,6 +91,8 @@ Ready for Silver Layer implementation.
 ### Status
 
 Ready for Gold Layer.
+
+---
 
 ## Day 7
 
