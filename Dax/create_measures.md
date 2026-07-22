@@ -21,14 +21,14 @@ DISTINCTCOUNT('SKU_Master_final'[product_id])
 
 ```DAX
 Total BOM Components =
-COUNTROWS('BOM_details_updated')
+COUNTROWS('BOM_details_updated (1)')
 ```
 
 ## Average Circularity Score
 
 ```DAX
 Average Circularity Score =
-AVERAGE('circularity_score_updated'[overall_circularity_score])
+AVERAGE('circularity_score_updated (1)'[overall_circularity_score])
 ```
 
 ## Average Repairability Score
@@ -42,12 +42,12 @@ AVERAGE('SKU_Master_final'[repairability_score])
 
 ```DAX
 Average Recyclability Score =
-AVERAGE('circularity_score_updated'[recyclability_score])
+AVERAGE('circularity_score_updated (1)'[recyclability_score])
 ```
 
 ## Average Warranty Score
 
 ```DAX
 Average Warranty Score =
-AVERAGE('circularity_score_updated'[warranty_score])
+AVERAGE('circularity_score_updated (1)'[warranty_score])
 ```
