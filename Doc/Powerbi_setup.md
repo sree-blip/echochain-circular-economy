@@ -193,3 +193,29 @@ Successfully enhanced the dashboard with a professional appearance, improved rea
 
 ## Outcome
 Successfully completed the EchoChain Power BI Dashboard project. The dashboard is fully functional, professionally designed, documented, and ready for demonstration, portfolio use, and GitHub submission.
+
+# Day 11 – Create DAX Measures
+
+
+## Activities
+
+- Created reusable DAX measures for dashboard KPIs.
+- Calculated Total Products using DAX.
+- Created Average Circularity Score measure.
+- Created Average Repairability Score measure.
+- Created Average Recyclability Score measure.
+- Created Average Warranty Score measure.
+- Created Total BOM Components measure.
+- Validated all DAX calculations with the dataset.
+- Connected DAX measures to KPI cards.
+- Tested DAX measures using Brand, Category, and Launch Year slicers.
+- Saved the updated Power BI dashboard.
+
+---
+
+## Outcome
+
+- Successfully created reusable DAX measures for key business metrics.
+- Improved dashboard accuracy and performance.
+- Enabled dynamic KPI calculations based on slicer selections.
+- Prepared the dashboard for advanced analytics and Circularity Score analysis in the next phase.

@@ -395,5 +395,44 @@ Review the progress of the EchoChain Power BI dashboard, validate all implemente
 - Create advanced DAX measures.
 - Implement Circularity Score calculations.
 - Build Executive Dashboard.
-- Add advanced analytics and business insights.
+- Add advanced analytics and business insights
+
+# Day 11 – Create DAX Measures
+
+## Objective
+
+Create reusable DAX measures to calculate key business metrics for the EchoChain Circular Economy Dashboard.
+
+---
+
+## Tasks Completed
+
+- Created DAX measures for Total Products.
+- Created Average Circularity Score measure.
+- Created Average Repairability Score measure.
+- Created Average Recyclability Score measure.
+- Created Average Warranty Score measure.
+- Created Total BOM Components measure.
+- Created Circularity Target measure.
+- Verified all DAX measures return correct values.
+- Updated KPI cards using the new measures.
+- Saved the Power BI dashboard.
+
+---
+
+## DAX Measures Created
+
+- Total Products
+- Average Circularity Score
+- Average Repairability Score
+- Average Recyclability Score
+- Average Warranty Score
+- Total BOM Components
+- Circularity Target
+
+---
+
+## Next Step
+
+Create advanced calculations and business insights using additional DAX measures.
 
