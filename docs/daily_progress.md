@@ -68,3 +68,8 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Joined matched scraper listings with SKU Master to compute average original prices, average resale prices, and average depreciation percentages.
 - Built and ran unit tests (`tests/test_aggregation.py`) to verify calculations.
 - Executed pipeline to generate the Gold-layer aggregated file `data/gold/aggregated_product_data.csv` for the BI dashboard.
+
+### Day 13
+- Finalized transformations by creating the master pipeline runner `run_pipeline.py`.
+- Automated and orchestrated all 5 pipeline stages sequentially, added execution time tracking, and verified successful runner execution.
+
