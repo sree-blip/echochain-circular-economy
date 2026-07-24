@@ -44,7 +44,8 @@ def main():
         ("2. Data Transformation", os.path.join(pyspark_dir, "transformation.py")),
         ("3. SKU Extraction", os.path.join(pyspark_dir, "sku_extraction.py")),
         ("4. Fuzzy Matching", os.path.join(pyspark_dir, "fuzzy_matching.py")),
-        ("5. Gold Layer Aggregation", os.path.join(pyspark_dir, "aggregate_listings.py"))
+        ("5. Circularity Dataset", os.path.join(pyspark_dir, "circularity_dataset.py")),
+        ("6. Gold Layer Aggregation", os.path.join(pyspark_dir, "aggregate_listings.py"))
     ]
     
     overall_start = time.time()
