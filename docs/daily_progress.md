@@ -73,3 +73,10 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Finalized transformations by creating the master pipeline runner `run_pipeline.py`.
 - Automated and orchestrated all 5 pipeline stages sequentially, added execution time tracking, and verified successful runner execution.
 
+### Day 14
+- Implemented `pyspark/circularity_dataset.py` to join matched listings, BOM, warranty, and circularity scores on `sku_id`.
+- Exported the unified Circularity Dataset in Parquet format to `data/processed/circularity_dataset/`.
+- Created automated unit tests in `tests/test_circularity.py` to verify the join structure.
+- Integrated the stage into `run_pipeline.py` to execute the full 6-stage ETL workflow.
+
+
