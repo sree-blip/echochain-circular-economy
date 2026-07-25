@@ -79,4 +79,10 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Created automated unit tests in `tests/test_circularity.py` to verify the join structure.
 - Integrated the stage into `run_pipeline.py` to execute the full 6-stage ETL workflow.
 
+### Day 15
+- Implemented `pyspark/validate_transformed.py` to automate post-transformation data quality checks.
+- Verified output datasets for schema alignments, null bounds, and logical range thresholds.
+- Integrated the validation engine as Stage 7 in the master runner script `run_pipeline.py` to guarantee clean data outputs.
+
+
 
