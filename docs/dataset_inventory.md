@@ -12,6 +12,7 @@
 | Silver | silver_bom_details | ✅ Completed |
 | Silver | silver_warranty_details | ✅ Completed |
 | Silver | silver_circularity_score | ✅ Completed |
+| Gold | gold_product_analytics | ⏳ Planned |
 
 | Dataset | Bronze | Silver | Gold |
 |----------|---------|---------|------|
