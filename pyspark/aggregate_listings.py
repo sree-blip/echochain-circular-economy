@@ -1,6 +1,6 @@
 import os
 import sys
-from pyspark.sql.functions import col, count, avg, round, when
+from pyspark.sql.functions import col, count, avg, round, when, broadcast
 
 # Add project root and pyspark directories to paths
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
@@ -19,9 +19,9 @@ def aggregate_product_data(matched_df, sku_df):
     and aggregates listing_count, avg_original_price, avg_resale_price,
     and avg_depreciation_pct grouped by brand, category, matched_model_name, and condition.
     """
-    # 1. Join matched listings and SKU Master on sku_id
+    # 1. Join matched listings and SKU Master using optimized Broadcast Join
     joined = matched_df.alias("m").join(
-        sku_df.alias("k"),
+        broadcast(sku_df.alias("k")),
         "sku_id",
         "inner"
     )
@@ -50,7 +50,10 @@ def aggregate_product_data(matched_df, sku_df):
         round(avg("depreciation_pct"), 2).alias("avg_depreciation_pct")
     )
     
-    return aggregated
+    # Sort output alphabetically for consistent file formatting
+    sorted_aggregated = aggregated.orderBy("brand", "category", "matched_model_name", "condition")
+    
+    return sorted_aggregated
 
 def main():
     print("="*60)
@@ -79,8 +82,14 @@ def main():
     print("Aggregating product listings and calculating depreciation...")
     agg_df = aggregate_product_data(matched_df, sku_df)
     
-    # Sort sequentially for a neat output layout
-    sorted_agg_df = agg_df.orderBy("brand", "category", "matched_model_name", "condition")
+    # Sort sequentially with natural numerical ordering on model name for a neat output layout
+    from pyspark.sql.functions import regexp_extract
+    sorted_agg_df = agg_df.withColumn(
+        "model_num",
+        regexp_extract(col("matched_model_name"), r"(\d+)", 1).cast("int")
+    ).orderBy(
+        "brand", "category", "model_num", "condition"
+    ).drop("model_num")
     
     # Save output to gold directory
     out_file = os.path.join(gold_dir, "aggregated_product_data.csv")
