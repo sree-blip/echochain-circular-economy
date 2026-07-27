@@ -1,0 +1,23 @@
+venv/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data directories (ignore local datasets and outputs)
+data/**/*.csv
+data/**/*.parquet
+data/silver/
+data/gold/
+
+
+
