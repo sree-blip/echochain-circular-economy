@@ -84,5 +84,7 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Verified output datasets for schema alignments, null bounds, and logical range thresholds.
 - Integrated the validation engine as Stage 7 in the master runner script `run_pipeline.py` to guarantee clean data outputs.
 
-
-
+### Day 16
+- Optimized the PySpark aggregation script (`pyspark/aggregate_listings.py`) by broadcasting the SKU Master lookup dimension to eliminate data shuffling.
+- Reordered the Gold-layer aggregated product data output structure for consistent layout matching.
+- Verified end-to-end execution of the full 7-stage ETL pipeline and all validation checks.
