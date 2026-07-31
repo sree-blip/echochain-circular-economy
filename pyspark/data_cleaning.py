@@ -184,35 +184,35 @@ def main():
     datasets = [
         {
             "name": "Scraper Data",
-            "path": "data/bronze/scraper_data_.csv",
+            "path": "data/bronze/clean_scraper_data.csv",
             "schema": get_scraper_data_schema(),
             "clean_func": clean_scraper_data,
             "out_name": "scraper_data"
         },
         {
             "name": "Warranty Details",
-            "path": "data/bronze/warrant_details_.csv",
+            "path": "data/bronze/warrant_details_final.csv",
             "schema": get_warranty_data_schema(),
             "clean_func": clean_warranty_details,
             "out_name": "warrant_details"
         },
         {
             "name": "BOM Details",
-            "path": "data/bronze/BOM_details_.csv",
+            "path": "data/bronze/BOM_details_updated.csv",
             "schema": get_bom_data_schema(),
             "clean_func": clean_bom_details,
             "out_name": "BOM_details"
         },
         {
             "name": "SKU Master",
-            "path": "data/bronze/SKU_Master_.csv",
+            "path": "data/bronze/SKU_Master_final.csv",
             "schema": get_sku_master_schema(),
             "clean_func": clean_sku_master,
             "out_name": "SKU_Master"
         },
         {
             "name": "Circularity Score",
-            "path": "data/bronze/circularity_score_.csv",
+            "path": "data/bronze/circularity_score_final.csv",
             "schema": get_circularity_score_schema(),
             "clean_func": clean_circularity_score,
             "out_name": "circularity_score"

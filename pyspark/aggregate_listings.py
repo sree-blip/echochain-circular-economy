@@ -83,12 +83,13 @@ def main():
     agg_df = aggregate_product_data(matched_df, sku_df)
     
     # Sort sequentially with natural numerical ordering on model name for a neat output layout
-    from pyspark.sql.functions import regexp_extract
+    from pyspark.sql.functions import regexp_extract, when, lit
+    extracted_digits = regexp_extract(col("matched_model_name"), r"(\d+)", 1)
     sorted_agg_df = agg_df.withColumn(
         "model_num",
-        regexp_extract(col("matched_model_name"), r"(\d+)", 1).cast("int")
+        when(extracted_digits == "", lit(0)).otherwise(extracted_digits.cast("int"))
     ).orderBy(
-        "brand", "category", "model_num", "condition"
+        "brand", "category", "model_num", "matched_model_name", "condition"
     ).drop("model_num")
     
     # Save output to gold directory

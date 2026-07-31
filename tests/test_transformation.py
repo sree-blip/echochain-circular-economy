@@ -54,7 +54,7 @@ class TestDataTransformation(unittest.TestCase):
     def test_transform_scraper_data(self):
         schema = get_extracted_scraper_data_schema()
         data = [
-            Row(product_id=1.0, marketplace_name="ebay", product_name="test", brand="dell", category="laptop", condition="new", resale_price=1000.0, seller_name="seller", seller_rating=4.5, location="us", listing_date="2024-03-07", product_url="http://test", availability_status="available", scraped_date="2025-01-29", model_code="t490", ram="16GB RAM", storage="512GB SSD")
+            Row(product_id=1.0, marketplace_name="ebay", product_name="test", brand="dell", category="laptop", condition="new", resale_price=1000.0, seller_name="seller", seller_rating=4.5, location="us", listing_date="2024-03-07", product_url="http://test", availability_status="available", scraped_date="2025-01-29", model_code="t490")
         ]
         df = self.spark.createDataFrame(data, schema)
         df_trans = transform_scraper_data(df)
@@ -68,9 +68,9 @@ class TestDataTransformation(unittest.TestCase):
         schema = get_warranty_data_schema()
         data = [
             # Row 1: Normal dates
-            Row(warranty_id="war0001", sku_id="sku0001", product_id=1.0, warranty_period_months=24, warranty_start_date="2022-11-27", warranty_end_date="2025-02-08", warranty_type="seller", coverage_details="parts", service_center_available="no", claim_status="expired", last_service_date="2024-02-13"),
+            Row(warranty_id="war0001", sku_id="sku0001", product_id=1.0, warranty_period_months=24, warranty_start_date="27-11-2022", warranty_end_date="08-02-2025", warranty_type="seller", coverage_details="parts", service_center_available="no", claim_status="expired", last_service_date="13-02-2024"),
             # Row 2: Swapped dates (start date is after end date)
-            Row(warranty_id="war0002", sku_id="sku0002", product_id=2.0, warranty_period_months=6, warranty_start_date="2024-11-15", warranty_end_date="2023-09-21", warranty_type="manufacturer", coverage_details="parts", service_center_available="no", claim_status="active", last_service_date="2025-02-17")
+            Row(warranty_id="war0002", sku_id="sku0002", product_id=2.0, warranty_period_months=6, warranty_start_date="15-11-2024", warranty_end_date="21-09-2023", warranty_type="manufacturer", coverage_details="parts", service_center_available="no", claim_status="active", last_service_date="17-02-2025")
         ]
         df = self.spark.createDataFrame(data, schema)
         df_trans = transform_warranty_details(df)

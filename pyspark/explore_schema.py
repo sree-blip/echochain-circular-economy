@@ -22,31 +22,30 @@ def explore_schemas():
     spark = create_spark_session()
     
     try:
-        # Define files to explore with their paths and schemas
         datasets = [
             {
                 "name": "SCRAPER DATA",
-                "path": "data/bronze/scraper_data_.csv",
+                "path": "data/bronze/clean_scraper_data.csv",
                 "schema_func": get_scraper_data_schema
             },
             {
                 "name": "WARRANTY DETAILS",
-                "path": "data/bronze/warrant_details_.csv",
+                "path": "data/bronze/warrant_details_final.csv",
                 "schema_func": get_warranty_data_schema
             },
             {
                 "name": "BOM DETAILS",
-                "path": "data/bronze/BOM_details_.csv",
+                "path": "data/bronze/BOM_details_updated.csv",
                 "schema_func": get_bom_data_schema
             },
             {
                 "name": "SKU MASTER",
-                "path": "data/bronze/SKU_Master_.csv",
+                "path": "data/bronze/SKU_Master_final.csv",
                 "schema_func": get_sku_master_schema
             },
             {
                 "name": "CIRCULARITY SCORE",
-                "path": "data/bronze/circularity_score_.csv",
+                "path": "data/bronze/circularity_score_final.csv",
                 "schema_func": get_circularity_score_schema
             }
         ]

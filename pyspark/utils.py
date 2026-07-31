@@ -107,9 +107,7 @@ def get_extracted_scraper_data_schema() -> StructType:
     Returns the schema for the scraper data after SKU and specifications extraction.
     """
     schema = get_scraper_data_schema()
-    return schema.add("model_code", StringType(), True)\
-                 .add("ram", StringType(), True)\
-                 .add("storage", StringType(), True)
+    return schema.add("model_code", StringType(), True)
 
 
 def get_matched_scraper_data_schema() -> StructType:
@@ -130,6 +128,7 @@ def load_csv(spark, path: str, schema: StructType):
         spark.read
         .format("csv")
         .option("header", "true")
+        .option("escape", '"')
         .schema(schema)
         .load(path)
     )
