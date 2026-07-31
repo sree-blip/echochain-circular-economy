@@ -51,6 +51,33 @@ Ready for Updated Silver Layer implementation.
 - Reviewed Bronze Layer validation and documentation.
 - Prepared the project for Updated Silver Layer implementation.
 
+## Day 14
+
+### Completed
+
+- Received updated Silver datasets from the PySpark Engineer.
+- Uploaded all updated CSV files to Databricks Volume.
+- Created the Silver schema for the Medallion Architecture.
+- Loaded all updated datasets into the Silver layer.
+- Created five updated Silver Delta tables.
+- Validated schemas and row counts.
+- Verified successful table creation in Catalog Explorer.
+- Prepared the Silver layer for Gold layer implementation.
+
+### Updated Silver Tables
+
+- silver_updated_bom_details
+- silver_updated_sku_master
+- silver_updated_scraper_data
+- silver_updated_warranty_details
+- silver_updated_circularity_score
+
+### Status
+
+Updated Silver Layer completed successfully.
+
+Ready for Gold Layer implementation.
+
 ### Status
 
 Updated Bronze Layer verified successfully.
