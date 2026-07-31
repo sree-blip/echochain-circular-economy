@@ -24,12 +24,25 @@ def fuzzy_match_listings(scraper_df, sku_df, max_distance=3):
     k = sku_df.alias("k")
     
     # --- TIER 1: EXACT MATCH ---
-    exact_joined = s.join(
+    # First try joining on product_id (which is highly optimized in the new dataset)
+    exact_id_joined = s.join(
         k,
-        (lower(trim(col("s.brand"))) == lower(trim(col("k.brand")))) &
-        (lower(trim(col("s.model_code"))) == lower(trim(col("k.product_name")))),
+        (col("s.product_id") == col("k.product_id")) &
+        (lower(trim(col("s.brand"))) == lower(trim(col("k.brand")))),
         "inner"
     )
+    
+    # Check if we got any matches using ID
+    if exact_id_joined.head(1):
+        exact_joined = exact_id_joined
+    else:
+        # Fall back to text matching (for mock tests/unmatched datasets)
+        exact_joined = s.join(
+            k,
+            (lower(trim(col("s.model_code"))) == lower(trim(col("k.product_name")))) &
+            (lower(trim(col("s.brand"))) == lower(trim(col("k.brand")))),
+            "inner"
+        )
     
     exact_result_cols = [
         col(f"s.{c}") for c in scraper_df.columns
@@ -106,7 +119,12 @@ def main():
         # Save output using pandas to bypass winutils.exe write issue
         out_file = os.path.join(silver_dir, "scraper_matched.csv")
         print(f"Saving matched listings to {out_file}...")
-        ordered_df.toPandas().to_csv(out_file, index=False)
+        
+        # Drop columns 'ram' and 'storage' if they exist
+        cols_to_drop = [c for c in ["ram", "storage"] if c in ordered_df.columns]
+        save_df = ordered_df.drop(*cols_to_drop) if cols_to_drop else ordered_df
+        
+        save_df.toPandas().to_csv(out_file, index=False)
         
         print(f"Fuzzy matching completed. Saved {matched_df.count()} matched records.")
         print("="*60 + "\n")

@@ -110,8 +110,10 @@ def main():
     
     # Save the output
     print(f"\nSaving extracted data to {output_path}...")
+    # Drop ram and storage columns from final output on disk
+    save_df = extracted_df.drop("ram", "storage")
     # Convert to Pandas to handle Windows write limitations
-    extracted_df.toPandas().to_csv(output_path, index=False)
+    save_df.toPandas().to_csv(output_path, index=False)
     print(f"Successfully saved to {output_path}")
     
     spark.stop()

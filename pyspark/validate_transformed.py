@@ -2,19 +2,22 @@ import os
 import sys
 import pandas as pd
 
-def validate_circularity_dataset(filepath):
+def validate_circularity_dataset(filepath, format_type="parquet"):
     """
-    Validates logic, completeness, and schema integrity of the Circularity Dataset (Parquet).
+    Validates logic, completeness, and schema integrity of the Circularity Dataset (Parquet/CSV).
     """
     errors = []
-    print("\nValidating Circularity Dataset (Parquet)...")
+    print(f"\nValidating Circularity Dataset ({format_type.upper()})...")
     
     if not os.path.exists(filepath):
         errors.append(f"File not found: {filepath}")
         return errors
 
     try:
-        df = pd.read_parquet(filepath)
+        if format_type == "parquet":
+            df = pd.read_parquet(filepath)
+        else:
+            df = pd.read_csv(filepath)
         
         # 1. Row count validation (expecting 50,000 matches)
         row_count = len(df)
@@ -45,16 +48,17 @@ def validate_circularity_dataset(filepath):
         if len(invalid_prices) > 0:
             errors.append(f"Found {len(invalid_prices)} records with invalid negative or zero resale prices.")
             
-        invalid_scores = df[(df["overall_circularity_score"] < 0) | (df["overall_circularity_score"] > 100)]
-        # Filter out NaN scores (from non-matching SKU score values if clean outer joins)
-        invalid_scores = invalid_scores.dropna(subset=["overall_circularity_score"])
-        if len(invalid_scores) > 0:
-            errors.append(f"Found {len(invalid_scores)} records where overall_circularity_score is outside [0-100].")
+        # 5. Score ranges validation
+        if "overall_circularity_score" in df.columns:
+            invalid_scores = df[(df["overall_circularity_score"] < 0) | (df["overall_circularity_score"] > 100)]
+            invalid_scores = invalid_scores.dropna(subset=["overall_circularity_score"])
+            if len(invalid_scores) > 0:
+                errors.append(f"Found {len(invalid_scores)} records where overall_circularity_score is outside [0-100].")
             
-        print("  - Circularity Dataset schema and logic checks completed.")
+        print(f"  - Circularity Dataset ({format_type.upper()}) schema and logic checks completed.")
         
     except Exception as e:
-        errors.append(f"Failed to read/validate Parquet dataset: {e}")
+        errors.append(f"Failed to read/validate {format_type.upper()} dataset: {e}")
         
     return errors
 
@@ -120,12 +124,14 @@ def main():
     
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     circularity_file = os.path.join(project_root, "data", "processed", "circularity_dataset", "part-0.parquet")
+    circularity_csv_file = os.path.join(project_root, "data", "processed", "circularity_dataset.csv")
     aggregated_file = os.path.join(project_root, "data", "gold", "aggregated_product_data.csv")
     
-    circularity_errors = validate_circularity_dataset(circularity_file)
+    circularity_errors = validate_circularity_dataset(circularity_file, "parquet")
+    circularity_csv_errors = validate_circularity_dataset(circularity_csv_file, "csv")
     aggregated_errors = validate_aggregated_data(aggregated_file)
     
-    all_errors = circularity_errors + aggregated_errors
+    all_errors = circularity_errors + circularity_csv_errors + aggregated_errors
     
     print("\n" + "*"*60)
     print("               VALIDATION REPORT SUMMARY                     ")

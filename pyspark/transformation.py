@@ -36,9 +36,9 @@ def transform_warranty_details(df):
     - Standardizes ID columns.
     """
     # 1. Cast dates to DateType
-    df_trans = df.withColumn("warranty_start_date", to_date(col("warranty_start_date"), "yyyy-MM-dd"))
-    df_trans = df_trans.withColumn("warranty_end_date", to_date(col("warranty_end_date"), "yyyy-MM-dd"))
-    df_trans = df_trans.withColumn("last_service_date", to_date(col("last_service_date"), "yyyy-MM-dd"))
+    df_trans = df.withColumn("warranty_start_date", to_date(col("warranty_start_date"), "dd-MM-yyyy"))
+    df_trans = df_trans.withColumn("warranty_end_date", to_date(col("warranty_end_date"), "dd-MM-yyyy"))
+    df_trans = df_trans.withColumn("last_service_date", to_date(col("last_service_date"), "dd-MM-yyyy"))
     
     # 2. Fix date logic: swap if start > end
     df_trans = df_trans.withColumn(

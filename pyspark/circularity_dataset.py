@@ -62,9 +62,21 @@ def main():
         
         # Convert Spark DataFrame to Pandas and export as Parquet
         pandas_df = circularity_dataset.toPandas()
+        
+        # Drop columns 'ram' and 'storage' as they are currently unpopulated in scraper data
+        cols_to_drop = [col for col in ["ram", "storage"] if col in pandas_df.columns]
+        if cols_to_drop:
+            print(f"Dropping unpopulated columns for final output: {cols_to_drop}")
+            pandas_df = pandas_df.drop(columns=cols_to_drop)
+            
         pandas_df.to_parquet(out_file, index=False)
         
-        print("Circularity Dataset successfully saved.")
+        # Also save the full 50,000 rows as CSV for the BI / upload compatibility
+        out_file_csv = os.path.join(processed_dir, "circularity_dataset.csv")
+        print(f"Saving merged Circularity Dataset to {out_file_csv} as CSV...")
+        pandas_df.to_csv(out_file_csv, index=False)
+        
+        print("Circularity Dataset successfully saved in both Parquet and CSV formats.")
         print("="*60 + "\n")
         
     except Exception as e:
