@@ -19,6 +19,3 @@ data/**/*.parquet
 data/silver/
 data/gold/
 
-# Temp scratch folder
-scratch/
-
