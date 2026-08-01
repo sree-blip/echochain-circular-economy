@@ -6,6 +6,7 @@ Required:
 - Python 3.12.10
 - Java JDK 17
 - PySpark 4.1.2
+- DuckDB 1.5.5 (or latest)
 
 Recommended:
 - VS Code (Visual Studio Code) 
@@ -133,9 +134,18 @@ This test confirms that PySpark is installed correctly and that Spark is working
 
 **Solution:** Verify that PySpark is installed correctly. If the issue persists, reinstall PySpark by following the installation steps.
 
+### 4. PyArrow DLL Loading Failure / winutils.exe Missing (Windows Security Policies)
+
+**Symptom:** Running the pipeline throws `ImportError: DLL load failed...` when attempting to import `pyarrow` under corporate Windows Application Control policies, or throws `FileNotFoundException` due to `HADOOP_HOME` and `winutils.exe` being unset.
+
+**Solution:** Install `duckdb` locally to act as the in-memory write engine:
+```bash
+python -m pip install duckdb
+```
+The codebase automatically redirects Parquet read/write actions through DuckDB to bypass all active policy blocks.
+
 ## References
-Python: https://www.python.org/⁠�
-
-Eclipse Temurin JDK: https://adoptium.net/⁠�
-
-VS Code: https://code.visualstudio.com/⁠�
+Python: https://www.python.org/
+Eclipse Temurin JDK: https://adoptium.net/
+VS Code: https://code.visualstudio.com/
+DuckDB: https://duckdb.org/

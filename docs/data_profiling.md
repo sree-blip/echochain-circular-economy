@@ -8,18 +8,18 @@ This document profiles the 5 raw bronze datasets ingested for the **EchoChain Ci
 
 | Dataset Name | File Path | Row Count | Key Identifier | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Scraper Data** | `data/bronze/scraper_data_.csv` | 50,001 | `product_id` | Scraped listings from secondary marketplaces (OLX, eBay, etc.) |
-| **Warranty Details** | `data/bronze/warrant_details_.csv` | 50,000 | `warranty_id` | Historical warranty registrations and claim logs |
-| **BOM Details** | `data/bronze/BOM_details_.csv` | 50,000 | `bom_id` | Bill of Materials specifying component weights, costs, and materials |
-| **SKU Master** | `data/bronze/SKU_Master_.csv` | 50,000 | `sku_id` | Official manufacturer catalog and technical details |
-| **Circularity Score** | `data/bronze/circularity_score_.csv` | 50,000 | `product_id` | Baseline circularity ratings and recommendations |
+| **Scraper Data** | `data/bronze/clean_scraper_data.csv` | 50,000 | `product_id` | Scraped listings from secondary marketplaces (OLX, eBay, etc.) |
+| **Warranty Details** | `data/bronze/warrant_details_final.csv` | 50,000 | `warranty_id` | Historical warranty registrations and claim logs |
+| **BOM Details** | `data/bronze/BOM_details_updated.csv` | 50,000 | `bom_id` | Bill of Materials specifying component weights, costs, and materials |
+| **SKU Master** | `data/bronze/SKU_Master_final.csv` | 50,000 | `sku_id` | Official manufacturer catalog and technical details |
+| **Circularity Score** | `data/bronze/circularity_score_final.csv` | 50,000 | `product_id` | Baseline circularity ratings and recommendations |
 
 ---
 
 ## 🔍 Detailed Schemas & Real Sample Data
 
-### 1. Scraper Data (`scraper_data_.csv`)
-*   **Row Count**: 50,001
+### 1. Scraper Data (`clean_scraper_data.csv`)
+*   **Row Count**: 50,000
 *   **Schema Tree**:
     ```
     root
@@ -51,7 +51,7 @@ This document profiles the 5 raw bronze datasets ingested for the **EchoChain Ci
 
 ---
 
-### 2. Warranty Details (`warrant_details_.csv`)
+### 2. Warranty Details (`warrant_details_final.csv`)
 *   **Row Count**: 50,000
 *   **Schema Tree**:
     ```
@@ -81,7 +81,7 @@ This document profiles the 5 raw bronze datasets ingested for the **EchoChain Ci
 
 ---
 
-### 3. BOM Details (`BOM_details_.csv`)
+### 3. BOM Details (`BOM_details_updated.csv`)
 *   **Row Count**: 50,000
 *   **Schema Tree**:
     ```
@@ -110,7 +110,7 @@ This document profiles the 5 raw bronze datasets ingested for the **EchoChain Ci
 
 ---
 
-### 4. SKU Master (`SKU_Master_.csv`)
+### 4. SKU Master (`SKU_Master_final.csv`)
 *   **Row Count**: 50,000
 *   **Schema Tree**:
     ```
@@ -145,7 +145,7 @@ This document profiles the 5 raw bronze datasets ingested for the **EchoChain Ci
 
 ---
 
-### 5. Circularity Score (`circularity_score_.csv`)
+### 5. Circularity Score (`circularity_score_final.csv`)
 *   **Row Count**: 50,000
 *   **Schema Tree**:
     ```

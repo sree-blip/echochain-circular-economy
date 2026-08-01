@@ -53,28 +53,31 @@ def main():
         print("Merging datasets on sku_id...")
         circularity_dataset = create_circularity_dataset(matched_df, bom_df, warranty_df, circularity_df)
         
-        # Save output in Parquet format by converting to Pandas to bypass the winutils.exe write limitation on Windows
-        out_dir = os.path.join(processed_dir, "circularity_dataset")
-        os.makedirs(out_dir, exist_ok=True)
-        
-        out_file = os.path.join(out_dir, "part-0.parquet")
-        print(f"Saving merged Circularity Dataset to {out_file} as Parquet...")
-        
-        # Convert Spark DataFrame to Pandas and export as Parquet
-        pandas_df = circularity_dataset.toPandas()
+        # Convert Spark DataFrame to Pandas by disabling Arrow to bypass pyarrow DLL policies
+        spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "false")
         
         # Drop columns 'ram' and 'storage' as they are currently unpopulated in scraper data
-        cols_to_drop = [col for col in ["ram", "storage"] if col in pandas_df.columns]
+        cols_to_drop = [col for col in ["ram", "storage"] if col in circularity_dataset.columns]
         if cols_to_drop:
             print(f"Dropping unpopulated columns for final output: {cols_to_drop}")
-            pandas_df = pandas_df.drop(columns=cols_to_drop)
-            
-        pandas_df.to_parquet(out_file, index=False)
-        
-        # Also save the full 50,000 rows as CSV for the BI / upload compatibility
+            circularity_dataset = circularity_dataset.drop(*cols_to_drop)
+
+        # Convert to pandas
+        pandas_df = circularity_dataset.toPandas()
+
+        # Save the full 50,000 rows as CSV first which is compatible out of the box
         out_file_csv = os.path.join(processed_dir, "circularity_dataset.csv")
         print(f"Saving merged Circularity Dataset to {out_file_csv} as CSV...")
         pandas_df.to_csv(out_file_csv, index=False)
+
+        # Save output in Parquet format using DuckDB to bypass both pyarrow DLL blocked policies and Spark JDK winutils.exe bugs
+        out_dir = os.path.join(processed_dir, "circularity_dataset")
+        os.makedirs(out_dir, exist_ok=True)
+        out_file = os.path.join(out_dir, "part-0.parquet")
+        
+        print(f"Saving merged Circularity Dataset to {out_file} as Parquet using DuckDB...")
+        import duckdb
+        duckdb.execute("COPY pandas_df TO ? (FORMAT PARQUET)", [out_file])
         
         print("Circularity Dataset successfully saved in both Parquet and CSV formats.")
         print("="*60 + "\n")

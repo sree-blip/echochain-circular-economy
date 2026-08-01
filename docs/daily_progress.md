@@ -93,3 +93,9 @@ This document tracks the daily progress and contributions for the PySpark data e
 - Standardized output layers to remove unpopulated attributes for final BI delivery.
 - Aligned project schemas and unit test suites to prevent positional parsing shifts.
 - Executed the full 7-stage end-to-end ETL run with a 100% test and validation pass rate.
+
+### Day 18
+- Resolved Windows-specific `pyarrow` DLL blocks and Spark `winutils.exe` write limitations by integrating `duckdb` for Parquet processing.
+- Configured local filesystem implementations conditionally for Windows platforms in `configs/spark_config.py`.
+- Updated setup guide (`docs/pyspark_setup.md`), profiling specs (`docs/data_profiling.md`), and workflow details (`docs/workflow.md`).
+- Confirmed full 7-stage pipeline runs and all 19 tests pass successfully.

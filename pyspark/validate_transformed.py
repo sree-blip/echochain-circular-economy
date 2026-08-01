@@ -15,7 +15,9 @@ def validate_circularity_dataset(filepath, format_type="parquet"):
 
     try:
         if format_type == "parquet":
-            df = pd.read_parquet(filepath)
+            # Use DuckDB to read Parquet to bypass pyarrow DLL policy blockers on this machine
+            import duckdb
+            df = duckdb.query(f"SELECT * FROM '{filepath}'").to_df()
         else:
             df = pd.read_csv(filepath)
         
