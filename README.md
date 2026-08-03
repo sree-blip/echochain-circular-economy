@@ -45,3 +45,17 @@ Week 2 Outcome :-
 • Clean scraped dataset generated.
 • Improved scraping accuracy.
 • Duplicate-free and validated data prepared for the next stage of processing.
+
+## Week 3 - Member 1 (Web Scraping Engineer)
+
+### Day 11 — Scraper Performance & Field Extraction Fix
+Fixed a bug where product fields (Brand, Category, Condition, Seller, Rating, Location) were coming empty because the CSS selector wasn't capturing text inside nested `<strong>` tags — switched to XPath text extraction. Optimized scraper settings for faster crawling.
+
+### Day 12 — Marketplace Testing
+Performed consistency testing (multiple runs), load testing (increased concurrency), and added retry mechanism with timeout handling to ensure scraper reliability.
+
+### Day 13 — Verify Scraped Records
+Built a verification script (`verify_records.py`) that cross-checks scraped data against the live source. Result: 0 mismatches found across all 20 records.
+
+### Day 14 — Error Handling
+Added try/except handling in the parsing logic and an errback handler for request-level failures, ensuring the scraper degrades gracefully instead of crashing on unexpected errors.
