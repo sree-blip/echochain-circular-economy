@@ -21,9 +21,12 @@ class ProductsSpider(scrapy.Spider):
             }
         },
 
-        "CONCURRENT_REQUESTS": 16,
-        "CONCURRENT_REQUESTS_PER_DOMAIN": 8,
+        "CONCURRENT_REQUESTS": 64,
+        "CONCURRENT_REQUESTS_PER_DOMAIN": 32,
         "DOWNLOAD_DELAY": 0.1,
+        "RETRY_ENABLED": True,
+        "RETRY_TIMES": 3,
+        "DOWNLOAD_TIMEOUT": 10,
     }
 
     def __init__(self, *args, **kwargs):
