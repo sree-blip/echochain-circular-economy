@@ -10,18 +10,28 @@ The ETL pipeline consists of a **7-stage sequential architecture** running from 
 
 ```mermaid
 graph TD
-    classDef bronze fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef silver fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef gold fill:#dfd,stroke:#333,stroke-width:2px;
-    
-    A[data/bronze] -->|1. Data Cleaning| B[data/silver]
-    B -->|2. Data Transformation| C[Date & ID Casts]
-    C -->|3. SKU Extraction| D[Model Attribute Extraction]
-    D -->|4. Fuzzy Matching| E[Levenshtein Distance Mapping]
-    E -->|5. Circularity Dataset| F[Circularity Calculations]
-    F -->|6. Gold Layer Aggregation| G[data/gold - Gold Aggregations]
-    G -->|7. Data Validation| H[Verification & Quality Checks]
-    
+    classDef bronze fill:#CD7F32,stroke:#8B5A2B,stroke-width:2px,color:#fff;
+    classDef silver fill:#d3d3d3,stroke:#a9a9a9,stroke-width:2px,color:#000;
+    classDef gold fill:#ffd700,stroke:#b8860b,stroke-width:2px,color:#000;
+
+    subgraph Bronze Layer
+        A([data/bronze])
+    end
+
+    subgraph Silver Layer
+        B([1. Data Cleaning]) --> C([2. Data Transformation])
+        C --> D([3. SKU Extraction])
+        D --> E([4. Fuzzy Matching])
+        E --> F([5. Circularity Dataset])
+    end
+
+    subgraph Gold Layer
+        G([6. Gold Aggregation]) --> H([7. Data Validation])
+    end
+
+    A --> B
+    F --> G
+
     class A bronze;
     class B,C,D,E,F silver;
     class G,H gold;
