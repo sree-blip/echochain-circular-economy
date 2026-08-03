@@ -1,0 +1,281 @@
+brand,category,matched_model_name,condition,listing_count,avg_original_price,avg_resale_price,avg_depreciation_pct
+apple,accessories,magic keyboard,good,115,60245.84,28878.09,42.96
+apple,accessories,magic keyboard,like new,134,56967.37,30252.92,33.98
+apple,accessories,magic keyboard,new,99,60971.98,30439.73,41.97
+apple,accessories,magic keyboard,refurbished,126,63102.44,32124.81,39.64
+apple,accessories,magsafe battery pack,good,115,59459.91,30301.89,41.33
+apple,accessories,magsafe battery pack,like new,124,57006.49,31275.57,33.6
+apple,accessories,magsafe battery pack,new,117,61747.44,28528.45,44.39
+apple,accessories,magsafe battery pack,refurbished,114,61702.19,29645.7,43.23
+apple,accessories,airpods pro (2nd gen),good,112,58337.07,31166.79,34.6
+apple,accessories,airpods pro (2nd gen),like new,124,60152.8,30391.94,40.16
+apple,accessories,airpods pro (2nd gen),new,134,62046.24,29515.71,43.79
+apple,accessories,airpods pro (2nd gen),refurbished,130,57654.39,28628.93,40.38
+apple,accessories,apple watch series 9,good,118,59921.81,30703.58,37.14
+apple,accessories,apple watch series 9,like new,122,62235.05,29751.66,45.48
+apple,accessories,apple watch series 9,new,132,60303.04,31117.67,36.79
+apple,accessories,apple watch series 9,refurbished,138,58164.32,29274.27,42.2
+apple,electronics,studio display,good,131,61863.84,28982.19,43.23
+apple,electronics,studio display,like new,138,60360.84,30225.33,39.67
+apple,electronics,studio display,new,105,63997.08,30404.63,42.34
+apple,electronics,studio display,refurbished,95,58674.46,30518.91,36.17
+apple,electronics,apple tv 4k,good,136,61028.5,29962.15,40.69
+apple,electronics,apple tv 4k,like new,97,59487.3,29555.76,39.15
+apple,electronics,apple tv 4k,new,116,57747.74,30647.64,37.09
+apple,electronics,apple tv 4k,refurbished,119,64321.16,29160.5,47.56
+apple,electronics,ipad air 5th gen,good,122,62834.27,31115.76,41.82
+apple,electronics,ipad air 5th gen,like new,122,59693.34,30958.29,37.04
+apple,electronics,ipad air 5th gen,new,93,61230.84,29301.85,42.57
+apple,electronics,ipad air 5th gen,refurbished,122,60203.57,31446.93,37.58
+apple,electronics,"ipad pro 11""",good,137,58124.71,30437.04,33.4
+apple,electronics,"ipad pro 11""",like new,132,58484.83,31767.25,37.61
+apple,electronics,"ipad pro 11""",new,122,62062.39,27543.25,47.52
+apple,electronics,"ipad pro 11""",refurbished,136,59804.73,30777.07,37.46
+apple,furniture,apple furniture device,good,511,61002.97,28915.56,43.14
+apple,furniture,apple furniture device,like new,502,60020.22,29438.68,41.33
+apple,furniture,apple furniture device,new,526,60248.09,30660.33,39.18
+apple,furniture,apple furniture device,refurbished,488,60005.32,30086.56,38.64
+apple,laptop,macbook air m1,good,149,59224.95,29601.0,40.57
+apple,laptop,macbook air m1,like new,137,58261.71,32554.12,33.17
+apple,laptop,macbook air m1,new,115,57895.48,30264.98,35.8
+apple,laptop,macbook air m1,refurbished,131,59060.02,27760.34,44.11
+apple,laptop,macbook air m2,good,137,57419.8,30067.69,33.97
+apple,laptop,macbook air m2,like new,134,61316.79,30120.35,42.47
+apple,laptop,macbook air m2,new,109,60211.78,28452.06,42.93
+apple,laptop,macbook air m2,refurbished,121,60703.74,29800.01,42.75
+apple,laptop,"macbook pro 14"" m3",good,120,58192.46,30926.8,32.45
+apple,laptop,"macbook pro 14"" m3",like new,105,59274.94,29429.64,38.79
+apple,laptop,"macbook pro 14"" m3",new,113,61325.31,30664.06,40.47
+apple,laptop,"macbook pro 14"" m3",refurbished,119,61503.44,30682.92,38.12
+apple,laptop,"macbook pro 16""",good,133,60655.89,28948.84,42.31
+apple,laptop,"macbook pro 16""",like new,114,56958.78,29587.86,35.92
+apple,laptop,"macbook pro 16""",new,130,60541.58,30942.18,35.88
+apple,laptop,"macbook pro 16""",refurbished,121,58831.26,29676.34,34.87
+apple,mobile,iphone se (3rd gen),good,110,60788.82,28423.65,42.34
+apple,mobile,iphone se (3rd gen),like new,119,60263.19,28695.99,42.94
+apple,mobile,iphone se (3rd gen),new,126,62490.18,28822.75,44.93
+apple,mobile,iphone se (3rd gen),refurbished,131,60038.02,30869.78,39.69
+apple,mobile,iphone 13 mini,good,121,57652.03,31037.86,33.15
+apple,mobile,iphone 13 mini,like new,115,62142.97,30458.74,41.68
+apple,mobile,iphone 13 mini,new,119,60354.06,30568.71,38.81
+apple,mobile,iphone 13 mini,refurbished,128,58591.75,30941.53,34.99
+apple,mobile,iphone 14,good,120,56674.08,28745.42,37.35
+apple,mobile,iphone 14,like new,108,65234.22,29314.77,46.12
+apple,mobile,iphone 14,new,112,60550.84,32304.41,35.85
+apple,mobile,iphone 14,refurbished,154,61235.21,29440.99,44.32
+apple,mobile,iphone 15 pro,good,147,60498.5,30339.24,40.52
+apple,mobile,iphone 15 pro,like new,117,60109.32,29069.79,41.4
+apple,mobile,iphone 15 pro,new,126,55670.45,31152.69,31.75
+apple,mobile,iphone 15 pro,refurbished,137,60940.33,29630.2,41.54
+dell,accessories,dell premier wireless mouse,good,196,60313.46,29589.89,40.98
+dell,accessories,dell premier wireless mouse,like new,170,60821.64,29874.34,37.69
+dell,accessories,dell premier wireless mouse,new,183,59690.72,30071.3,39.21
+dell,accessories,dell premier wireless mouse,refurbished,148,61038.88,28857.77,41.81
+dell,accessories,dell pro stereo headset,good,168,57632.01,29687.87,37.74
+dell,accessories,dell pro stereo headset,like new,164,58616.34,30472.85,37.0
+dell,accessories,dell pro stereo headset,new,181,62247.52,27933.06,44.81
+dell,accessories,dell pro stereo headset,refurbished,178,61699.98,30522.15,41.4
+dell,accessories,dell universal dock,good,163,60114.15,27760.15,43.3
+dell,accessories,dell universal dock,like new,154,59706.71,31636.73,36.41
+dell,accessories,dell universal dock,new,167,61541.75,29038.32,40.97
+dell,accessories,dell universal dock,refurbished,165,60009.27,29355.81,41.22
+dell,electronics,dell docking station wd19s,good,176,60430.32,30140.53,38.39
+dell,electronics,dell docking station wd19s,like new,151,61642.7,29501.23,40.94
+dell,electronics,dell docking station wd19s,new,170,59022.76,29994.32,38.97
+dell,electronics,dell docking station wd19s,refurbished,135,57979.74,29371.47,40.68
+dell,electronics,ultrasharp 27 monitor,good,157,59774.82,28909.22,38.93
+dell,electronics,ultrasharp 27 monitor,like new,189,59787.02,29625.24,41.61
+dell,electronics,ultrasharp 27 monitor,new,152,57367.4,29553.05,38.69
+dell,electronics,ultrasharp 27 monitor,refurbished,152,58476.39,30288.13,37.01
+dell,electronics,dell gaming monitor s2721dgf,good,168,58286.63,29792.81,38.39
+dell,electronics,dell gaming monitor s2721dgf,like new,171,60830.85,28009.93,45.65
+dell,electronics,dell gaming monitor s2721dgf,new,148,60591.49,31124.07,39.72
+dell,electronics,dell gaming monitor s2721dgf,refurbished,156,64789.08,31147.78,42.78
+dell,furniture,dell furniture device,good,510,59814.45,29992.53,41.44
+dell,furniture,dell furniture device,like new,496,60023.06,29445.65,40.54
+dell,furniture,dell furniture device,new,492,59956.87,29545.3,41.65
+dell,furniture,dell furniture device,refurbished,491,61135.5,28580.81,44.73
+dell,laptop,xps 13,good,148,60401.82,28990.56,41.09
+dell,laptop,xps 13,like new,131,62014.4,29806.05,41.97
+dell,laptop,xps 13,new,108,60764.34,30606.95,39.65
+dell,laptop,xps 13,refurbished,112,56790.88,29530.64,40.51
+dell,laptop,inspiron 15,good,147,59667.12,31601.01,32.64
+dell,laptop,inspiron 15,like new,144,58406.7,31414.24,35.81
+dell,laptop,inspiron 15,new,150,59114.56,30046.86,38.9
+dell,laptop,inspiron 15,refurbished,134,58227.5,29805.18,39.19
+dell,laptop,alienware m16,good,136,61707.63,29286.54,41.75
+dell,laptop,alienware m16,like new,126,60559.7,31583.37,38.58
+dell,laptop,alienware m16,new,101,60874.82,30103.3,43.58
+dell,laptop,alienware m16,refurbished,120,56894.88,29858.81,34.51
+dell,laptop,latitude 5420,good,140,59786.76,29337.69,37.81
+dell,laptop,latitude 5420,like new,129,61978.24,28102.48,45.86
+dell,laptop,latitude 5420,new,127,59878.65,31314.83,38.86
+dell,laptop,latitude 5420,refurbished,130,54245.35,29752.52,32.55
+dell,mobile,dell venue pro 11,good,451,61805.67,29438.45,44.28
+dell,mobile,dell venue pro 11,like new,486,58249.71,29810.25,38.66
+dell,mobile,dell venue pro 11,new,497,61035.06,29359.58,42.8
+dell,mobile,dell venue pro 11,refurbished,479,60155.32,30151.73,39.77
+hp,accessories,hp ergonomic mouse,good,187,57128.96,29652.94,36.58
+hp,accessories,hp ergonomic mouse,like new,186,59021.7,30328.69,38.99
+hp,accessories,hp ergonomic mouse,new,174,59859.94,31068.43,38.2
+hp,accessories,hp ergonomic mouse,refurbished,187,63910.96,27902.09,48.43
+hp,accessories,hp usb-c multiport hub,good,146,62404.97,31569.73,36.78
+hp,accessories,hp usb-c multiport hub,like new,140,61367.69,28218.69,45.82
+hp,accessories,hp usb-c multiport hub,new,181,60939.25,29494.14,42.12
+hp,accessories,hp usb-c multiport hub,refurbished,190,59570.56,30707.69,37.88
+hp,accessories,hp wireless keyboard 230,good,171,58365.99,30447.3,37.09
+hp,accessories,hp wireless keyboard 230,like new,177,60863.92,29912.57,38.38
+hp,accessories,hp wireless keyboard 230,new,178,58584.7,30718.95,36.56
+hp,accessories,hp wireless keyboard 230,refurbished,200,59253.79,29133.91,41.02
+hp,electronics,sprocket photo printer,good,155,56830.99,30361.03,33.08
+hp,electronics,sprocket photo printer,like new,166,62662.07,29044.76,45.72
+hp,electronics,sprocket photo printer,new,142,60313.08,30048.99,37.36
+hp,electronics,sprocket photo printer,refurbished,159,57647.74,30074.32,35.5
+hp,electronics,reverb g2 vr headset,good,163,59642.18,29171.15,37.59
+hp,electronics,reverb g2 vr headset,like new,163,57881.37,30916.52,34.61
+hp,electronics,reverb g2 vr headset,new,159,59929.89,29681.84,43.38
+hp,electronics,reverb g2 vr headset,refurbished,172,64838.56,30111.71,44.06
+hp,electronics,series 7 pro monitor,good,179,61278.16,29533.37,43.04
+hp,electronics,series 7 pro monitor,like new,180,56704.97,30140.11,35.15
+hp,electronics,series 7 pro monitor,new,154,60109.25,31807.71,37.29
+hp,electronics,series 7 pro monitor,refurbished,155,59472.75,29473.31,37.49
+hp,furniture,hp furniture device,good,462,60439.72,31015.39,37.74
+hp,furniture,hp furniture device,like new,518,59199.11,30202.88,38.49
+hp,furniture,hp furniture device,new,469,59277.32,28948.72,41.74
+hp,furniture,hp furniture device,refurbished,457,59768.63,30652.15,37.91
+hp,laptop,envy 13,good,139,61636.19,30208.78,38.92
+hp,laptop,envy 13,like new,137,61159.37,28732.21,45.12
+hp,laptop,envy 13,new,102,60407.42,30634.35,41.78
+hp,laptop,envy 13,refurbished,105,58771.01,29866.67,39.73
+hp,laptop,pavilion 15,good,139,60739.64,28378.76,44.48
+hp,laptop,pavilion 15,like new,125,60342.12,30228.22,40.84
+hp,laptop,pavilion 15,new,126,60523.67,30642.24,39.72
+hp,laptop,pavilion 15,refurbished,117,60543.48,31078.09,37.54
+hp,laptop,victus 16,good,118,57879.25,29112.42,40.68
+hp,laptop,victus 16,like new,140,58657.3,30100.78,40.09
+hp,laptop,victus 16,new,132,61538.8,29559.98,43.17
+hp,laptop,victus 16,refurbished,123,61098.55,28854.92,42.11
+hp,laptop,spectre x360,good,126,59491.03,30239.79,39.86
+hp,laptop,spectre x360,like new,121,60224.38,29661.41,41.51
+hp,laptop,spectre x360,new,147,59423.9,30385.46,37.05
+hp,laptop,spectre x360,refurbished,105,58626.27,30102.19,40.55
+hp,mobile,hp elite x3,good,512,60704.12,29202.98,41.26
+hp,mobile,hp elite x3,like new,493,59099.26,30290.99,38.01
+hp,mobile,hp elite x3,new,501,61872.85,29676.85,42.95
+hp,mobile,hp elite x3,refurbished,490,61815.44,30953.25,38.69
+lenovo,accessories,legion gaming headset,good,166,59337.1,30335.67,38.84
+lenovo,accessories,legion gaming headset,like new,177,58335.86,29483.71,40.66
+lenovo,accessories,legion gaming headset,new,175,58988.1,30333.83,40.75
+lenovo,accessories,legion gaming headset,refurbished,180,60819.23,31848.88,35.68
+lenovo,accessories,lenovo wireless mouse,good,162,60071.14,30667.33,37.64
+lenovo,accessories,lenovo wireless mouse,like new,149,57858.03,30186.69,38.31
+lenovo,accessories,lenovo wireless mouse,new,184,59865.84,27342.51,45.46
+lenovo,accessories,lenovo wireless mouse,refurbished,199,59931.69,31492.03,36.61
+lenovo,accessories,65w usb-c gan charger,good,176,60692.33,30045.63,39.96
+lenovo,accessories,65w usb-c gan charger,like new,175,62663.16,29923.97,40.57
+lenovo,accessories,65w usb-c gan charger,new,193,60229.41,29658.97,41.91
+lenovo,accessories,65w usb-c gan charger,refurbished,184,61082.68,28447.59,45.76
+lenovo,electronics,smart clock 2,good,181,61590.1,29826.81,41.33
+lenovo,electronics,smart clock 2,like new,181,59173.31,29817.25,38.61
+lenovo,electronics,smart clock 2,new,152,60694.59,29992.49,40.2
+lenovo,electronics,smart clock 2,refurbished,187,57089.91,30165.25,35.22
+lenovo,electronics,tab p11 pro,good,192,58292.51,29971.81,37.99
+lenovo,electronics,tab p11 pro,like new,152,60793.9,30140.81,40.02
+lenovo,electronics,tab p11 pro,new,169,58639.02,30813.4,34.69
+lenovo,electronics,tab p11 pro,refurbished,176,60722.43,30191.28,40.89
+lenovo,electronics,"thinkvision monitor 27""",good,147,62365.53,29872.66,44.46
+lenovo,electronics,"thinkvision monitor 27""",like new,171,59947.56,31256.54,38.18
+lenovo,electronics,"thinkvision monitor 27""",new,169,59237.24,31072.17,37.56
+lenovo,electronics,"thinkvision monitor 27""",refurbished,147,57991.4,29340.73,38.62
+lenovo,furniture,lenovo furniture device,good,520,60331.76,29684.97,41.49
+lenovo,furniture,lenovo furniture device,like new,502,60279.1,29636.87,40.22
+lenovo,furniture,lenovo furniture device,new,488,60171.52,28959.82,41.06
+lenovo,furniture,lenovo furniture device,refurbished,522,61533.75,30177.25,41.38
+lenovo,laptop,thinkpad x1 carbon,good,123,60211.31,30465.74,38.71
+lenovo,laptop,thinkpad x1 carbon,like new,113,58432.57,29151.23,37.85
+lenovo,laptop,thinkpad x1 carbon,new,124,59858.07,29759.76,41.47
+lenovo,laptop,thinkpad x1 carbon,refurbished,131,58922.51,31197.93,34.76
+lenovo,laptop,ideapad slim 5,good,148,58690.49,30848.9,35.04
+lenovo,laptop,ideapad slim 5,like new,123,58210.31,29823.28,39.0
+lenovo,laptop,ideapad slim 5,new,112,58996.19,29254.34,40.0
+lenovo,laptop,ideapad slim 5,refurbished,122,60236.18,28163.93,44.72
+lenovo,laptop,legion 5 pro,good,135,58090.78,29141.6,40.23
+lenovo,laptop,legion 5 pro,like new,102,61743.8,30017.23,38.47
+lenovo,laptop,legion 5 pro,new,143,60477.69,30117.5,40.42
+lenovo,laptop,legion 5 pro,refurbished,120,62052.38,28905.94,45.03
+lenovo,laptop,yoga slim 7i,good,128,60701.75,29640.58,36.44
+lenovo,laptop,yoga slim 7i,like new,140,59150.19,29597.09,39.0
+lenovo,laptop,yoga slim 7i,new,124,58232.02,29592.85,38.66
+lenovo,laptop,yoga slim 7i,refurbished,117,57229.34,30596.63,36.65
+lenovo,mobile,lenovo legion phone duel,good,255,59110.92,30891.44,39.26
+lenovo,mobile,lenovo legion phone duel,like new,259,59125.19,30131.58,38.16
+lenovo,mobile,lenovo legion phone duel,new,261,62728.9,31053.3,40.18
+lenovo,mobile,lenovo legion phone duel,refurbished,259,58359.03,30674.16,36.35
+lenovo,mobile,lenovo thinkphone,good,239,58902.62,29715.68,38.63
+lenovo,mobile,lenovo thinkphone,like new,243,57642.84,29182.3,37.42
+lenovo,mobile,lenovo thinkphone,new,283,60444.87,29640.37,40.23
+lenovo,mobile,lenovo thinkphone,refurbished,258,57979.31,29759.05,39.23
+samsung,accessories,galaxy buds2 pro,good,119,62309.25,29655.18,43.04
+samsung,accessories,galaxy buds2 pro,like new,124,57576.43,30707.84,36.92
+samsung,accessories,galaxy buds2 pro,new,119,56982.8,32160.2,33.44
+samsung,accessories,galaxy buds2 pro,refurbished,139,58790.48,29544.85,36.28
+samsung,accessories,galaxy smarttag2,good,147,60074.47,29013.41,40.71
+samsung,accessories,galaxy smarttag2,like new,112,60054.27,28132.93,40.38
+samsung,accessories,galaxy smarttag2,new,124,62330.31,30248.03,41.38
+samsung,accessories,galaxy smarttag2,refurbished,141,58093.97,29713.43,36.39
+samsung,accessories,galaxy watch 6,good,131,60694.88,29778.89,40.76
+samsung,accessories,galaxy watch 6,like new,133,60772.29,30929.73,38.78
+samsung,accessories,galaxy watch 6,new,102,60612.25,30379.92,42.54
+samsung,accessories,galaxy watch 6,refurbished,116,60339.16,30436.93,37.99
+samsung,accessories,10000mah power bank,good,134,61970.91,30583.25,40.35
+samsung,accessories,10000mah power bank,like new,92,63612.57,28841.02,46.1
+samsung,accessories,10000mah power bank,new,118,61199.53,30878.06,40.67
+samsung,accessories,10000mah power bank,refurbished,120,59840.6,30992.47,37.11
+samsung,electronics,soundbar q-series,good,118,63130.09,32478.57,36.75
+samsung,electronics,soundbar q-series,like new,121,61822.18,29633.69,44.44
+samsung,electronics,soundbar q-series,new,123,60493.84,31356.52,37.95
+samsung,electronics,soundbar q-series,refurbished,114,56372.96,30397.73,33.65
+samsung,electronics,crystal 4k smart tv,good,148,61302.16,31130.54,39.84
+samsung,electronics,crystal 4k smart tv,like new,105,61277.56,31274.48,34.61
+samsung,electronics,crystal 4k smart tv,new,125,61332.71,30269.58,40.53
+samsung,electronics,crystal 4k smart tv,refurbished,130,60990.02,30313.6,40.67
+samsung,electronics,smart monitor m8,good,128,63337.39,29215.27,46.4
+samsung,electronics,smart monitor m8,like new,131,59512.98,29344.8,43.42
+samsung,electronics,smart monitor m8,new,142,59050.72,27951.07,43.96
+samsung,electronics,smart monitor m8,refurbished,134,59409.9,30448.43,38.9
+samsung,electronics,galaxy tab s9,good,135,61370.02,31728.96,37.74
+samsung,electronics,galaxy tab s9,like new,118,58014.89,30930.71,37.04
+samsung,electronics,galaxy tab s9,new,117,64897.34,29918.28,45.08
+samsung,electronics,galaxy tab s9,refurbished,121,60382.17,29068.35,40.48
+samsung,furniture,samsung furniture device,good,503,59200.24,30134.77,39.37
+samsung,furniture,samsung furniture device,like new,487,56994.86,30343.3,34.74
+samsung,furniture,samsung furniture device,new,520,60325.65,30377.57,39.45
+samsung,furniture,samsung furniture device,refurbished,477,59647.08,29448.67,40.0
+samsung,laptop,galaxy book go,good,166,56747.77,30859.7,33.86
+samsung,laptop,galaxy book go,like new,131,60237.84,30837.22,37.2
+samsung,laptop,galaxy book go,new,193,60741.09,28973.64,42.66
+samsung,laptop,galaxy book go,refurbished,175,58583.59,30876.58,35.14
+samsung,laptop,galaxy book3 pro,good,168,58892.3,29525.38,39.34
+samsung,laptop,galaxy book3 pro,like new,155,59884.91,30540.75,37.34
+samsung,laptop,galaxy book3 pro,new,170,59380.05,31387.59,37.75
+samsung,laptop,galaxy book3 pro,refurbished,153,57878.45,29154.65,37.11
+samsung,laptop,galaxy book4 ultra,good,157,61634.12,30533.82,40.72
+samsung,laptop,galaxy book4 ultra,like new,168,58604.34,30070.35,36.02
+samsung,laptop,galaxy book4 ultra,new,169,59955.11,30902.04,38.99
+samsung,laptop,galaxy book4 ultra,refurbished,172,58040.72,29905.63,38.47
+samsung,mobile,galaxy z flip5,good,141,60581.38,29787.27,41.7
+samsung,mobile,galaxy z flip5,like new,119,62418.27,29835.99,43.56
+samsung,mobile,galaxy z flip5,new,128,61238.08,30441.23,40.38
+samsung,mobile,galaxy z flip5,refurbished,125,61090.95,32278.17,38.34
+samsung,mobile,galaxy s23,good,127,59268.32,28491.31,40.07
+samsung,mobile,galaxy s23,like new,126,60794.03,30040.07,41.15
+samsung,mobile,galaxy s23,new,128,62567.52,31421.01,39.25
+samsung,mobile,galaxy s23,refurbished,120,64112.63,30313.06,45.05
+samsung,mobile,galaxy s24 ultra,good,101,65015.2,29957.51,44.26
+samsung,mobile,galaxy s24 ultra,like new,131,61564.48,29103.34,45.3
+samsung,mobile,galaxy s24 ultra,new,139,59376.73,29943.26,40.07
+samsung,mobile,galaxy s24 ultra,refurbished,124,58520.31,29763.07,38.79
+samsung,mobile,galaxy a54 5g,good,130,63465.02,29884.61,42.78
+samsung,mobile,galaxy a54 5g,like new,120,60993.18,30019.85,42.5
+samsung,mobile,galaxy a54 5g,new,138,63077.04,30551.8,40.99
+samsung,mobile,galaxy a54 5g,refurbished,123,59311.7,31129.0,35.93
