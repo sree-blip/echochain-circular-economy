@@ -66,9 +66,13 @@ echochain-circular-economy/
 │   └── validate_transformed.py
 ├── tests/                      # Testing architecture
 │   ├── mock_data/              # Isolated, lightweight mock data for QA tests (100 rows each)
+│   ├── test_cleaning.py
 │   ├── test_transformation.py
+│   ├── test_extraction.py
 │   ├── test_matching.py
-│   └── test_aggregation.py
+│   ├── test_circularity.py
+│   ├── test_aggregation.py
+│   └── test_utils.py
 ├── run_pipeline.py             # Main entrypoint runner for execution of the entire ETL pipeline
 ├── requirements.txt            # System dependencies (PySpark, DuckDB, Pandas, etc.)
 └── README.md
@@ -102,9 +106,20 @@ python run_pipeline.py
 ```
 
 ### 3. Run Unit Tests (QA)
-Validates the data transformation and matching logic against localized mock datasets:
+Validates the data transformation and matching logic against localized mock datasets.
+
+To run all test suites together:
 ```bash
+python -m unittest discover tests
+```
+
+To run individual test files:
+```bash
+python -m unittest tests/test_cleaning.py
 python -m unittest tests/test_transformation.py
+python -m unittest tests/test_extraction.py
 python -m unittest tests/test_matching.py
+python -m unittest tests/test_circularity.py
 python -m unittest tests/test_aggregation.py
+python -m unittest tests/test_utils.py
 ```
