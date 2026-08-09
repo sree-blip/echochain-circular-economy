@@ -436,3 +436,127 @@ Create reusable DAX measures to calculate key business metrics for the EchoChain
 
 Create advanced calculations and business insights using additional DAX measures.
 
+
+
+---
+
+# Day 12 – Circularity Score Calculation
+
+## Objective
+
+Calculate and analyze the Circularity Score of products using Power BI and DAX
+to evaluate the circular economy performance of products.
+
+---
+
+## Tasks Completed
+
+- Reviewed the Circularity Score dataset.
+- Verified the available circularity-related fields.
+- Connected Circularity Score data with product information.
+- Created the Average Circularity Score measure.
+- Created the Circularity Target measure.
+- Created the Circularity Gap measure.
+- Created the Circularity Status measure.
+- Tested the Circularity Score calculations.
+- Added Circularity Score KPIs to the dashboard.
+- Added Brand and Category slicers.
+- Created Circularity Score visualizations.
+- Verified that the visuals respond correctly to filters.
+- Saved the updated Power BI dashboard.
+
+---
+
+## DAX Measures Created
+
+- Average Circularity Score
+- Circularity Target
+- Circularity Gap
+- Circularity Status
+
+---
+
+## Dashboard Visuals
+
+- Average Circularity Score KPI
+- Circularity Target KPI
+- Circularity Gap KPI
+- Average Circularity Score by Brand
+- Average Circularity Score by Category
+- Overall Circularity Score Gauge
+- Brand and Category Slicers
+
+---
+
+## Next Step
+
+Perform depreciation analysis using original price and resale price data.
+
+---
+
+# Day 13 – Depreciation Analysis
+
+## Objective
+
+Analyze product depreciation by comparing original prices and resale prices
+to understand product value retention in the secondary market.
+
+---
+
+## Tasks Completed
+
+- Reviewed marketplace and aggregated product data.
+- Verified Original Price and Resale Price fields.
+- Calculated Average Original Price.
+- Calculated Average Resale Price.
+- Created the Average Depreciation % measure.
+- Created the Price Retention % measure.
+- Compared depreciation percentages across brands.
+- Analyzed depreciation across product categories.
+- Created Original Price vs Resale Price visualizations.
+- Created Depreciation % by Brand visualization.
+- Created a Price vs Resale Price scatter chart.
+- Added depreciation KPIs to the dashboard.
+- Created a detailed product summary table.
+- Tested the depreciation calculations.
+- Verified dashboard filtering and interactions.
+- Saved the updated Power BI dashboard.
+
+---
+
+## DAX Measures Created
+
+- Average Original Price
+- Average Resale Price
+- Average Depreciation %
+- Price Retention %
+
+---
+
+## Dashboard Visuals
+
+- Average Original Price KPI
+- Average Resale Price KPI
+- Average Depreciation % KPI
+- Original Price vs Resale Price by Brand
+- Average Depreciation % by Brand
+- Original Price vs Resale Price Scatter Chart
+- Detailed Product Summary Table
+
+---
+
+## Analysis Outcome
+
+- Identified differences between original and resale prices.
+- Compared depreciation levels between different brands.
+- Analyzed product value retention in the secondary market.
+- Identified products and brands with relatively higher depreciation.
+- Prepared depreciation insights for the Executive Dashboard.
+
+---
+
+## Next Step
+
+Finalize the dashboard design and prepare the Executive Dashboard
+with key business insights.
+
